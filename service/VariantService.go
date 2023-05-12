@@ -23,8 +23,11 @@ func GetAllVariants() []Variant {
 			}
 			vid := strconv.FormatUint(uint64(variantsDO.ID), 10)
 			cid := strconv.FormatUint(uint64(variantsDO.CardID), 10)
+			card, _ := dao.GetCardByID(variantsDO.CardID)
+			nameZh := card.NameZh
 			variant := Variant{
 				Name:               variantsDO.Name,
+				NameZh:             nameZh,
 				Rarity:             variantsDO.Rarity,
 				Vid:                vid,
 				Released:           variantsDO.Released,
