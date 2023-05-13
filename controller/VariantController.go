@@ -21,7 +21,7 @@ func ListVariants(w http.ResponseWriter, r *http.Request) {
 	// 设置 HTTP 响应头
 	w.Header().Set("Content-Type", "application/json")
 
-	variantsCache := service.GetAllVariants()
+	variantsCache := service.GetVariantsCache()
 
 	var i, j int
 
@@ -52,7 +52,7 @@ func GetVariant(w http.ResponseWriter, r *http.Request) {
 	id := r.URL.Query().Get("id")
 
 	var foundVariant service.Variant
-	variantsCache := service.GetAllVariants()
+	variantsCache := service.GetVariantsCache()
 	for _, variant := range variantsCache {
 		if variant.Cid == id {
 			foundVariant = variant
