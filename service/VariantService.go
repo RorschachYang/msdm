@@ -8,6 +8,7 @@ import (
 
 func GetAllVariants() []Variant {
 	variantsDO, err := dao.GetAllVariants()
+	cardsDO, err := dao.GetAllCards()
 	if err == nil {
 		//中文翻译不在这里更新
 		var variants []Variant
@@ -23,11 +24,16 @@ func GetAllVariants() []Variant {
 			}
 			vid := strconv.FormatUint(uint64(variantsDO.ID), 10)
 			cid := strconv.FormatUint(uint64(variantsDO.CardID), 10)
-			card, _ := dao.GetCardByID(variantsDO.CardID)
-			nameZh := card.NameZh
+			var cardNameZh string
+			for _, cardDO := range cardsDO {
+				if cardDO.ID == variantsDO.CardID {
+					cardNameZh = cardDO.NameZh
+				}
+
+			}
 			variant := Variant{
 				Name:               variantsDO.Name,
-				NameZh:             nameZh,
+				NameZh:             cardNameZh,
 				Rarity:             variantsDO.Rarity,
 				Vid:                vid,
 				Released:           variantsDO.Released,
