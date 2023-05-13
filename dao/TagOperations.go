@@ -38,7 +38,7 @@ func UpsertTagAndLinkWithVariant(tagName string, variantID uint) error {
 
 func GetAllTags() ([]Tag, error) {
 	var tags []Tag
-	result := db.Find(&tags)
+	result := db.Order("name asc").Find(&tags)
 	if result.Error != nil {
 		return nil, result.Error
 	}

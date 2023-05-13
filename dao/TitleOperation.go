@@ -26,7 +26,7 @@ func GetTitleByName(name string) (*Title, error) {
 
 func GetAllTitles() ([]Title, error) {
 	var titles []Title
-	result := db.Find(&titles)
+	result := db.Order("name asc").Find(&titles)
 	if result.Error != nil {
 		return nil, result.Error
 	}

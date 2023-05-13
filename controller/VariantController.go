@@ -28,12 +28,12 @@ func ListVariants(w http.ResponseWriter, r *http.Request) {
 	var result []service.Variant
 
 	if (pageNum+1)*pageSizeNum <= len(variantsCache) {
-		i = pageNum*pageSizeNum + 1
+		i = pageNum * pageSizeNum
 		j = (pageNum + 1) * pageSizeNum
 
 		result = variantsCache[i:j]
 	} else if (pageNum+1)*pageSizeNum > len(variantsCache) && pageNum*pageSizeNum <= len(variantsCache) {
-		i = pageNum*pageSizeNum + 1
+		i = pageNum * pageSizeNum
 		j = len(variantsCache)
 
 		result = variantsCache[i:j]
@@ -54,7 +54,7 @@ func GetVariant(w http.ResponseWriter, r *http.Request) {
 	var foundVariant service.Variant
 	variantsCache := service.GetVariantsCache()
 	for _, variant := range variantsCache {
-		if variant.Cid == id {
+		if variant.Vid == id {
 			foundVariant = variant
 		}
 	}
