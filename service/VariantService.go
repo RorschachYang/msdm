@@ -7,9 +7,9 @@ import (
 )
 
 func GetAllVariants() []Variant {
-	variantsDO, err := dao.GetAllVariants()
-	cardsDO, err := dao.GetAllCards()
-	if err == nil {
+	variantsDO, err1 := dao.GetAllVariants()
+	cardsDO, err2 := dao.GetAllCards()
+	if err1 == nil && err2 == nil {
 		//中文翻译不在这里更新
 		var variants []Variant
 		for _, variantsDO := range variantsDO {
@@ -18,6 +18,7 @@ func GetAllVariants() []Variant {
 				artists = append(artists, artist.Name)
 			}
 			var tags []Tag
+			tags = []Tag{} //防止转换成json时属性值为null
 			for _, tagDO := range variantsDO.Tags {
 				tag := Tag{Name: tagDO.Name, NameZh: tagDO.NameZh}
 				tags = append(tags, tag)
