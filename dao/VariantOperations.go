@@ -35,7 +35,7 @@ func GetVariantByID(id uint) (*Variant, error) {
 
 func GetAllVariants() ([]Variant, error) {
 	var variants []Variant
-	result := db.Preload("Artist").Preload("Tags").Find(&variants)
+	result := db.Preload("Artist").Preload("Tags").Order("name asc").Find(&variants)
 	if result.Error != nil {
 		return nil, result.Error
 	}

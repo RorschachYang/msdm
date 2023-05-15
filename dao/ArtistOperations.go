@@ -23,7 +23,7 @@ func UpsertArtistAndLinkWithVariant(name string, vid uint) error {
 
 func GetAllArtists() ([]Artist, error) {
 	var artists []Artist
-	result := db.Find(&artists)
+	result := db.Order("name asc").Find(&artists)
 	if result.Error != nil {
 		return nil, result.Error
 	}

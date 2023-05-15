@@ -34,7 +34,7 @@ func GetCardByID(id uint) (*Card, error) {
 
 func GetAllCards() ([]Card, error) {
 	var cards []Card
-	result := db.Find(&cards)
+	result := db.Order("name asc").Find(&cards)
 	if result.Error != nil {
 		return nil, result.Error
 	}

@@ -14,6 +14,7 @@ func main() {
 	http.HandleFunc("/listLocations", controller.ListLocations)
 	http.HandleFunc("/getCard", controller.GetCard)
 	http.HandleFunc("/getVariant", controller.GetVariant)
+	http.HandleFunc("/getVariantsByCid", controller.GetVariantsByCardID)
 	http.HandleFunc("/getLocation", controller.GetLocation)
 	http.HandleFunc("/login", controller.Login)
 

@@ -41,7 +41,7 @@ func GetLocationByName(name string) (*Location, error) {
 
 func GetAllLocations() ([]Location, error) {
 	var locations []Location
-	result := db.Find(&locations)
+	result := db.Order("name asc").Find(&locations)
 	if result.Error != nil {
 		return nil, result.Error
 	}

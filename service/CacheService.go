@@ -13,6 +13,10 @@ func init() {
 	VariantsCache = GetAllVariants()
 }
 
+func GetVariantsCache() []Variant {
+	return VariantsCache
+}
+
 func GetCardsCache() []Card {
 	return CardsCache
 }
