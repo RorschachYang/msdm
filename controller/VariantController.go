@@ -66,3 +66,23 @@ func GetVariant(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 }
+
+func GetVariantsByCardID(w http.ResponseWriter, r *http.Request) {
+	// 解析ID参数
+	cid := r.URL.Query().Get("cid")
+
+	var foundVariant []service.Variant
+	variantsCache := service.GetVariantsCache()
+	for _, variant := range variantsCache {
+		if variant.Cid == cid {
+			foundVariant = append(foundVariant, variant)
+		}
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	// 返回 JSON 数据
+	if err := json.NewEncoder(w).Encode(foundVariant); err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+}
