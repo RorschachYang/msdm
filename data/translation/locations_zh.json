@@ -1,0 +1,884 @@
+[
+  {
+    "name": "altar of death",
+    "nameZh": "死亡祭坛",
+    "description": "after you play a card here, destroy it to get +2 energy next turn.",
+    "descriptionZh": "你在此区域放置一张卡牌后，摧毁该卡牌然后在下回合+2能量。",
+    "defId": ""
+  },
+  {
+    "name": "asgard",
+    "nameZh": "阿斯加德",
+    "description": "after turn 4, whoever is winning here draws  {location.drawcount:card|cards}.",
+    "descriptionZh": "第4回合后，在此区域领先的玩家抽2张牌。",
+    "defId": ""
+  },
+  {
+    "name": "asteroid m",
+    "nameZh": "小行星M",
+    "description": "after you play a 3 or 4-cost card, move it here.",
+    "descriptionZh": "当你放置初始能量消耗为3或4的卡牌后，会将该卡牌移动至此区域。",
+    "defId": ""
+  },
+  {
+    "name": "atlantis",
+    "nameZh": "亚特兰蒂斯",
+    "description": "if you only have one card here, it has +5 power.",
+    "descriptionZh": "若你在此区域仅有1张卡牌，使其+5战力。",
+    "defId": ""
+  },
+  {
+    "name": "attilan",
+    "nameZh": "阿提兰",
+    "description": "after turn 3, shuffle your hand into your deck. draw  cards.",
+    "descriptionZh": "第3回合后，将你的手牌洗进你的卡组，并抽3张牌。",
+    "defId": ""
+  },
+  {
+    "name": "aunt may's",
+    "nameZh": "",
+    "description": "the first card you play here gets +3 power and moves.",
+    "descriptionZh": "",
+    "defId": ""
+  },
+  {
+    "name": "avengers compound",
+    "nameZh": "复仇者基地",
+    "description": "on turn 5, all cards must be played here.",
+    "descriptionZh": "第5回合中，所有卡牌都只能放置在此区域。",
+    "defId": ""
+  },
+  {
+    "name": "bar sinister",
+    "nameZh": "惊恶属地",
+    "description": "after you play a card here, fill this location with copies of it.",
+    "descriptionZh": "你在此区域放置一张卡牌后，用该卡牌的复制牌填满此区域。",
+    "defId": ""
+  },
+  {
+    "name": "bar with no name",
+    "nameZh": "无名酒吧",
+    "description": "whoever has the least power here wins.",
+    "descriptionZh": "战力较低的玩家可赢下此区域。",
+    "defId": ""
+  },
+  {
+    "name": "baxter building",
+    "nameZh": "巴克斯特大厦",
+    "description": "whoever is winning this location gets +3 power at the others.",
+    "descriptionZh": "在此区域领先的玩家会在其他区域+3战力。",
+    "defId": ""
+  },
+  {
+    "name": "camp lehigh",
+    "nameZh": "里海营地",
+    "description": "add a random 3-cost card to each player's hand.",
+    "descriptionZh": "随机将一张初始能量消耗为3的卡牌添加到双方手牌。",
+    "defId": ""
+  },
+  {
+    "name": "central park",
+    "nameZh": "中央公园",
+    "description": "add a squirrel to each location.",
+    "descriptionZh": "向每个区域添加1张松鼠。",
+    "defId": ""
+  },
+  {
+    "name": "cloning vats",
+    "nameZh": "复制中心",
+    "description": "after you play a card here, add a copy to your hand.",
+    "descriptionZh": "你在此区域放置一张卡牌后，将1张复制牌添加到你的手牌。",
+    "defId": ""
+  },
+  {
+    "name": "collapsed mine",
+    "nameZh": "塌陷的矿坑",
+    "description": "fill this location with rocks. skip a turn to destroy your rocks.",
+    "descriptionZh": "用石块填满此区域。跳过一个回合即可摧毁你的石块。",
+    "defId": ""
+  },
+  {
+    "name": "counter-earth",
+    "nameZh": "反转地球",
+    "description": "after you play a card here, create a copy at this location.",
+    "descriptionZh": "你在此区域放置一张卡牌后，会在此区域添加1张它的复制牌。",
+    "defId": ""
+  },
+  {
+    "name": "crimson cosmos",
+    "nameZh": "深红宇宙",
+    "description": "cards that cost 1, 2, or 3 can't be played here.",
+    "descriptionZh": "能量消耗为1、2或3的卡牌不可放置在此区域。",
+    "defId": ""
+  },
+  {
+    "name": "crystal towers",
+    "nameZh": "水晶塔",
+    "description": "shuffle your hand into your deck. draw 3 cards.",
+    "descriptionZh": "将你的手牌洗入卡组，并抽3张牌。",
+    "defId": ""
+  },
+  {
+    "name": "daily bugle",
+    "nameZh": "号角日报社",
+    "description": "get a copy of a card in your opponent's hand.",
+    "descriptionZh": "获取你对手手牌中一张牌的复制。",
+    "defId": ""
+  },
+  {
+    "name": "danger room",
+    "nameZh": "危险斗室",
+    "description": "cards played here have a 25% chance to be destroyed.",
+    "descriptionZh": "放置在此区域的卡牌有25%的几率被摧毁。",
+    "defId": ""
+  },
+  {
+    "name": "dark dimension",
+    "nameZh": "黑暗维度",
+    "description": "cards here are not revealed until the game ends.",
+    "descriptionZh": "此区域的卡牌在对战结束之前不会揭开。",
+    "defId": ""
+  },
+  {
+    "name": "death's domain",
+    "nameZh": "死亡领地",
+    "description": "after you play a card here, destroy it.",
+    "descriptionZh": "你在此区域放置一张卡牌后，该卡牌会被摧毁。",
+    "defId": ""
+  },
+  {
+    "name": "deep space",
+    "nameZh": "深空",
+    "description": "card text is disabled here.",
+    "descriptionZh": "在此区域卡牌文本无效。",
+    "defId": ""
+  },
+  {
+    "name": "district x",
+    "nameZh": "X地区",
+    "description": "replace both decks with 10 random cards.",
+    "descriptionZh": "用10张随机卡牌替换双方卡组。",
+    "defId": ""
+  },
+  {
+    "name": "dream dimension",
+    "nameZh": "梦之维度",
+    "description": "on turn 5, cards cost  more.",
+    "descriptionZh": "在第5回合，卡牌能量消耗+1。",
+    "defId": ""
+  },
+  {
+    "name": "ego",
+    "nameZh": "伊戈",
+    "description": "ego takes over and plays your cards for you.",
+    "descriptionZh": "伊戈接管你的牌局，替你出牌。",
+    "defId": ""
+  },
+  {
+    "name": "elysium",
+    "nameZh": "极乐净土",
+    "description": "cards cost 1 less.",
+    "descriptionZh": "卡牌能量消耗-1。",
+    "defId": ""
+  },
+  {
+    "name": "eternity range",
+    "nameZh": "永恒山脉",
+    "description": "after turn 3, add a rock to the losing player's side.",
+    "descriptionZh": "第3回合后，为在此落后的玩家添加一张石块。",
+    "defId": ""
+  },
+  {
+    "name": "fisk tower",
+    "nameZh": "菲斯克塔",
+    "description": "when a card moves here, destroy it.",
+    "descriptionZh": "当有牌移动到此区域时，摧毁该牌。",
+    "defId": ""
+  },
+  {
+    "name": "flooded",
+    "nameZh": "已冲毁",
+    "description": "cards can't be played here.",
+    "descriptionZh": "此区域不可放置卡牌。",
+    "defId": ""
+  },
+  {
+    "name": "flooding",
+    "nameZh": "冲毁中",
+    "description": "this is the last turn cards can be played here.",
+    "descriptionZh": "此回合是在此区域放置卡牌的最后机会。",
+    "defId": ""
+  },
+  {
+    "name": "fogwell's gym",
+    "nameZh": "福格维尔的健身房",
+    "description": "both players get double card xp this game.",
+    "descriptionZh": "双方本局对战均获得双倍强化套组。",
+    "defId": ""
+  },
+  {
+    "name": "gamma lab",
+    "nameZh": "伽马实验室",
+    "description": "after turn 3, transform all cards here into the hulk.",
+    "descriptionZh": "第3回合后，将此区域的所有卡牌变成浩克。",
+    "defId": ""
+  },
+  {
+    "name": "genosha",
+    "nameZh": "吉诺沙",
+    "description": "you can move cards to this location.",
+    "descriptionZh": "你可将牌移动至此区域。",
+    "defId": ""
+  },
+  {
+    "name": "grand central",
+    "nameZh": "中央车站",
+    "description": "after turn 5, put a card from each player's hand here.",
+    "descriptionZh": "第5回合后，从双方手牌各抽取1张卡牌放置于此区域。",
+    "defId": ""
+  },
+  {
+    "name": "great web",
+    "nameZh": "",
+    "description": "after each turn, move one card to the web for a random player.",
+    "descriptionZh": "",
+    "defId": ""
+  },
+  {
+    "name": "hala",
+    "nameZh": "哈拉星",
+    "description": "after turn 4, destroy all cards controlled by the player losing here.",
+    "descriptionZh": "第4回合后，摧毁在此区域落后玩家的所有卡牌。",
+    "defId": ""
+  },
+  {
+    "name": "hell's kitchen",
+    "nameZh": "地狱厨房",
+    "description": "draw a 1-cost card from your deck.",
+    "descriptionZh": "从卡组中抽取1张初始能量消耗为1的卡牌。",
+    "defId": ""
+  },
+  {
+    "name": "hellfire club",
+    "nameZh": "地狱火俱乐部",
+    "description": "cards that cost 1 can't be played here.",
+    "descriptionZh": "能量消耗为1卡牌不可放置在此区域。",
+    "defId": ""
+  },
+  {
+    "name": "isle of silence",
+    "nameZh": "寂静岛",
+    "description": "ongoing effects are disabled here.",
+    "descriptionZh": "此区域的持续效果无法触发。",
+    "defId": ""
+  },
+  {
+    "name": "jotunheim",
+    "nameZh": "约顿海姆",
+    "description": "after each turn, cards here lose 1 power.",
+    "descriptionZh": "每回合结束后，此区域的卡牌-1战力。",
+    "defId": ""
+  },
+  {
+    "name": "k'un-lun",
+    "nameZh": "昆仑",
+    "description": "when a card moves here, give it +2 power.",
+    "descriptionZh": "当有卡牌移动至此区域时，使其+2战力。",
+    "defId": ""
+  },
+  {
+    "name": "kamar-taj",
+    "nameZh": "卡玛泰姬",
+    "description": "on reveal effects happen twice at this location.",
+    "descriptionZh": "此区域揭示效果触发两次。",
+    "defId": ""
+  },
+  {
+    "name": "klyntar",
+    "nameZh": "克林塔星",
+    "description": "after turn 4, merge your cards here into a symbiote.",
+    "descriptionZh": "第4回合后，将你在此区域的牌融合成一张融合怪。",
+    "defId": ""
+  },
+  {
+    "name": "knowhere",
+    "nameZh": "虚无知地",
+    "description": "on reveal effects do not happen at this location.",
+    "descriptionZh": "此区域的揭示效果不触发。",
+    "defId": ""
+  },
+  {
+    "name": "krakoa",
+    "nameZh": "克拉科",
+    "description": "on turn 5, takes over and plays both players' cards for them.",
+    "descriptionZh": "在第5回合，克拉科岛将主导场面，替两位玩家出牌。",
+    "defId": ""
+  },
+  {
+    "name": "kyln",
+    "nameZh": "克林监狱",
+    "description": "you can't play cards here after turn 4.",
+    "descriptionZh": "第4回合后，你不能在此区域放置卡牌",
+    "defId": ""
+  },
+  {
+    "name": "lamentis-1",
+    "nameZh": "拉曼提斯",
+    "description": "draw 3 cards. destroy both decks.",
+    "descriptionZh": "抽3张牌。摧毁双方卡组。",
+    "defId": ""
+  },
+  {
+    "name": "lechuguilla",
+    "nameZh": "雷修古拉",
+    "description": "after you play a card here, shuffle 3 rocks into your deck.",
+    "descriptionZh": "你在此区域放置卡牌后，会将3张石块洗入你的卡组。",
+    "defId": ""
+  },
+  {
+    "name": "lemuria",
+    "nameZh": "雷姆利亚",
+    "description": "no cards are revealed this turn.",
+    "descriptionZh": "此回合牌不会揭开。",
+    "defId": ""
+  },
+  {
+    "name": "limbo",
+    "nameZh": "地狱边境",
+    "description": "there is a turn 7 this game.",
+    "descriptionZh": "本局对战有7个回合。",
+    "defId": ""
+  },
+  {
+    "name": "los diablos base",
+    "nameZh": "洛斯迪亚布罗斯基地",
+    "description": "after turn 3, ruin a random location.",
+    "descriptionZh": "回合后，随机毁掉一个区域。",
+    "defId": ""
+  },
+  {
+    "name": "luke's bar",
+    "nameZh": "卢克·凯奇的酒吧",
+    "description": "after you play a card here, return it to your hand.",
+    "descriptionZh": "你在此区域放置一张卡牌后，会将其退回你的手牌。",
+    "defId": ""
+  },
+  {
+    "name": "machineworld",
+    "nameZh": "机械世界",
+    "description": "after you play a card here, add a copy to the opponent's hand.",
+    "descriptionZh": "你在此区域放置一张卡牌后，会将它的1张复制牌添加到对手的手牌。",
+    "defId": ""
+  },
+  {
+    "name": "madripoor",
+    "nameZh": "",
+    "description": "you can move cards from this location.",
+    "descriptionZh": "",
+    "defId": ""
+  },
+  {
+    "name": "milano",
+    "nameZh": "米兰号",
+    "description": "turn 5 is the only turn cards can be played here.",
+    "descriptionZh": "第5回合是在此区域放置卡牌的唯一机会。",
+    "defId": ""
+  },
+  {
+    "name": "mindscape",
+    "nameZh": "意念领地",
+    "description": "at the start of turn 6, swap hands.",
+    "descriptionZh": "第6回合开始时，交换手牌。",
+    "defId": ""
+  },
+  {
+    "name": "miniaturized lab",
+    "nameZh": "微缩实验室",
+    "description": "on turns 3, 4, and 5, no cards can be added here.",
+    "descriptionZh": "在第3、4、5回合，此区域不能放置卡牌。",
+    "defId": ""
+  },
+  {
+    "name": "mirror dimension",
+    "nameZh": "镜次元",
+    "description": "on turn 4, transform into one of the other locations.",
+    "descriptionZh": "在第4合，此区域变成场上的一个其他区域。",
+    "defId": ""
+  },
+  {
+    "name": "mojoworld",
+    "nameZh": "莫卓领地",
+    "description": "whoever has more cards here gets +100 power.",
+    "descriptionZh": "此区域拥有更多卡牌的玩家+100战力。",
+    "defId": ""
+  },
+  {
+    "name": "monster island",
+    "nameZh": "怪物岛",
+    "description": "add a monster-power  here for each player.",
+    "descriptionZh": "为双方区域各添加1张9战力的怪物。",
+    "defId": ""
+  },
+  {
+    "name": "monster metropolis",
+    "nameZh": "怪物都市",
+    "description": "the card(s) with the highest power here get +3 power.",
+    "descriptionZh": "此区域战力最高的卡牌+3战力。",
+    "defId": ""
+  },
+  {
+    "name": "morag",
+    "nameZh": "魔拉格星",
+    "description": "you can't play your first card here each turn.",
+    "descriptionZh": "你每回合的第1张卡牌不能放置在此区域。",
+    "defId": ""
+  },
+  {
+    "name": "mother mold",
+    "nameZh": "母体模组",
+    "description": "when you play a card here, add a sentinel to your hand.",
+    "descriptionZh": "当你在此区域放置卡牌时，将1张哨兵机器人添加到你的手牌。",
+    "defId": ""
+  },
+  {
+    "name": "mt. wundagore",
+    "nameZh": "",
+    "description": "after you play a card here, discard a card.",
+    "descriptionZh": "你在此区域放置一张卡牌后，会丢弃一张卡牌。",
+    "defId": ""
+  },
+  {
+    "name": "muir island",
+    "nameZh": "缪尔岛",
+    "description": "after each turn, give cards here +1 power.",
+    "descriptionZh": "每回合结束后，此区域的卡牌+1战力。",
+    "defId": ""
+  },
+  {
+    "name": "murderworld",
+    "nameZh": "恐怖屋",
+    "description": "after turn 3, destroy all cards here.",
+    "descriptionZh": "第3回合后，摧毁此区域的所有卡牌。",
+    "defId": ""
+  },
+  {
+    "name": "necrosha",
+    "nameZh": "死灵沙",
+    "description": "cards here have\n-2 power.",
+    "descriptionZh": "此区域的卡牌-2战力",
+    "defId": ""
+  },
+  {
+    "name": "negative zone",
+    "nameZh": "异次元空间",
+    "description": "cards here have\n-3 power.",
+    "descriptionZh": "此区域的卡牌-3战力",
+    "defId": ""
+  },
+  {
+    "name": "new york",
+    "nameZh": "纽约",
+    "description": "",
+    "descriptionZh": "第6回合，你可以将卡牌移动到此区域。",
+    "defId": ""
+  },
+  {
+    "name": "nidavellir",
+    "nameZh": "尼达维尔",
+    "description": "cards here have\n+5 power.",
+    "descriptionZh": "此区域的卡牌+5战力",
+    "defId": ""
+  },
+  {
+    "name": "nova roma",
+    "nameZh": "新罗马",
+    "description": "draw a card.",
+    "descriptionZh": "抽一张牌",
+    "defId": ""
+  },
+  {
+    "name": "olympia",
+    "nameZh": "奥林匹亚",
+    "description": "draw 2 cards.",
+    "descriptionZh": "抽两张牌。",
+    "defId": ""
+  },
+  {
+    "name": "onslaught's citadel",
+    "nameZh": "狂攻堡垒",
+    "description": "ongoing effects here are doubled.",
+    "descriptionZh": "此区域持续效果翻倍。",
+    "defId": ""
+  },
+  {
+    "name": "orchis forge",
+    "nameZh": "红门兰锻造厂",
+    "description": "after you play a card here, add a sentinel to your hand.",
+    "descriptionZh": "当你在此区域放置卡牌时，将1张哨兵机器人添加到你的手牌。",
+    "defId": ""
+  },
+  {
+    "name": "oscorp tower",
+    "nameZh": "奥斯企业塔",
+    "description": "after turn 3, all cards here swap sides.",
+    "descriptionZh": "第3回合后，此区域所有卡牌换边。",
+    "defId": ""
+  },
+  {
+    "name": "pet mansion",
+    "nameZh": "宠物小宅",
+    "description": "this turn, all cards must be played here.",
+    "descriptionZh": "本回合中，所有卡牌都只能放置在此区域。",
+    "defId": ""
+  },
+  {
+    "name": "pleasant hill",
+    "nameZh": "快乐岭",
+    "description": "after you play a card here, draw a card.",
+    "descriptionZh": "你在此区域放置一张卡牌后，抽一张卡牌。",
+    "defId": ""
+  },
+  {
+    "name": "plunder castle",
+    "nameZh": "掠夺城堡",
+    "description": "only cards that cost 6 can be played here.",
+    "descriptionZh": "只能将能量消耗为6的卡牌放置在此区域。",
+    "defId": ""
+  },
+  {
+    "name": "project pegasus",
+    "nameZh": "飞马计划",
+    "description": "+5 energy this turn.",
+    "descriptionZh": "本回合+5能量。",
+    "defId": ""
+  },
+  {
+    "name": "quantum realm",
+    "nameZh": "量子领域",
+    "description": "after you play a card here, set its base power to 2.",
+    "descriptionZh": "你在此区域放置一张卡牌后，会将其基础战力设为2。",
+    "defId": ""
+  },
+  {
+    "name": "quantum tunnel",
+    "nameZh": "量子隧道",
+    "description": "after you play a card here, swap it with a card in your deck.",
+    "descriptionZh": "你在此区域放置一张卡牌后，会将其替换为你卡组中的一张卡牌。",
+    "defId": ""
+  },
+  {
+    "name": "rickety bridge",
+    "nameZh": "危桥",
+    "description": "after each turn, if there is more than one card here, destroy them.",
+    "descriptionZh": "每回合后，若此区域的卡牌超过一张，摧毁这里所有的牌。",
+    "defId": ""
+  },
+  {
+    "name": "ruins",
+    "nameZh": "废墟",
+    "description": " ",
+    "descriptionZh": "",
+    "defId": ""
+  },
+  {
+    "name": "sakaar",
+    "nameZh": "萨卡星",
+    "description": "put a card from each player's hand here.",
+    "descriptionZh": "从双方手牌中各抽1张卡牌，放置于此区域。",
+    "defId": ""
+  },
+  {
+    "name": "sanctum sanctorum",
+    "nameZh": "至圣所",
+    "description": "cards can't be played here.",
+    "descriptionZh": "此区域不可放置卡牌。",
+    "defId": ""
+  },
+  {
+    "name": "savage land",
+    "nameZh": "蛮荒之地",
+    "description": "add two raptors on each side of this location.",
+    "descriptionZh": "为双方在此区域各添加2张迅猛龙。",
+    "defId": ""
+  },
+  {
+    "name": "sewer system",
+    "nameZh": "下水道",
+    "description": "cards here have\n-1 power.",
+    "descriptionZh": "此区域的卡牌-1战力。",
+    "defId": ""
+  },
+  {
+    "name": "shadowland",
+    "nameZh": "影域",
+    "description": "add a ninja to each side with  power.",
+    "descriptionZh": "为双方区域各添加1张-2战力的忍者。",
+    "defId": ""
+  },
+  {
+    "name": "shuri's lab",
+    "nameZh": "苏睿的实验室",
+    "description": "after you play a card here, double its power.",
+    "descriptionZh": "你在此区域放置一张卡牌后，该卡牌战力翻倍。",
+    "defId": ""
+  },
+  {
+    "name": "sinister london",
+    "nameZh": "惊恶伦敦",
+    "description": "after you play a card here, add a copy to another location.",
+    "descriptionZh": "你在此区域放置一张卡牌后，会向另一区域添加1张复制牌。",
+    "defId": ""
+  },
+  {
+    "name": "sokovia",
+    "nameZh": "索科维亚",
+    "description": "discard a card from each player's hand.",
+    "descriptionZh": "双方各从手牌中丢弃1张卡牌。",
+    "defId": ""
+  },
+  {
+    "name": "stark tower",
+    "nameZh": "史塔克大楼",
+    "description": "after turn 5, give all cards here + power.",
+    "descriptionZh": "第5回合后，此区域的所有卡牌+2战力。",
+    "defId": ""
+  },
+  {
+    "name": "starlight citadel",
+    "nameZh": "星光堡垒",
+    "description": "after turn 4, swap the position of each location.",
+    "descriptionZh": "第4回合后，调换所有区域的位置。",
+    "defId": ""
+  },
+  {
+    "name": "strange academy",
+    "nameZh": "奇异学院",
+    "description": "after turn 5, move all cards here to other random locations.",
+    "descriptionZh": "第5回合后，将此区域的所有卡牌随机移动至其他区域。",
+    "defId": ""
+  },
+  {
+    "name": "subterranea",
+    "nameZh": "泰拉瑞亚",
+    "description": "shuffle 5 rocks into each deck.",
+    "descriptionZh": "向双方的卡组中各洗入5张石块。",
+    "defId": ""
+  },
+  {
+    "name": "t.a.h.i.t.i.",
+    "nameZh": "塔西提岛",
+    "description": "when a card is discarded or destroyed, add a copy here.",
+    "descriptionZh": "当卡牌被摧毁或丢弃时，将其复制添加到此区域。",
+    "defId": ""
+  },
+  {
+    "name": "the bifrost",
+    "nameZh": "彩虹桥",
+    "description": "after turn 4, move all cards one location to the right.",
+    "descriptionZh": "第4回合后，将所有卡牌向右移动一个区域。",
+    "defId": ""
+  },
+  {
+    "name": "the big house",
+    "nameZh": "“巨型”监狱",
+    "description": "cards that cost 4, 5, or 6 can't be played here.",
+    "descriptionZh": "能量消耗为4、5或6的卡牌不可放置在此区域。",
+    "defId": ""
+  },
+  {
+    "name": "the hub",
+    "nameZh": "枢纽",
+    "description": "add a random card to each player's hand.",
+    "descriptionZh": "随机将1张卡牌添加到双方手牌。",
+    "defId": ""
+  },
+  {
+    "name": "the ice box",
+    "nameZh": "冰盒",
+    "description": "give a card in each player’s hand +1 cost.",
+    "descriptionZh": "使双方各自手牌中的1张卡牌+1能量消耗。",
+    "defId": ""
+  },
+  {
+    "name": "the nexus",
+    "nameZh": "奈库斯",
+    "description": "your power here is granted to other locations as well.",
+    "descriptionZh": "将此区域的战力赋予其他区域。",
+    "defId": ""
+  },
+  {
+    "name": "the peak",
+    "nameZh": "峰顶太空站",
+    "description": "each card in your hand swaps its power and cost.",
+    "descriptionZh": "你每张手牌的战力值和能量消耗值互换。",
+    "defId": ""
+  },
+  {
+    "name": "the raft",
+    "nameZh": "浮桥监狱",
+    "description": "first to fill this breaks out a 6-cost card. it costs 0.",
+    "descriptionZh": "率先填满此区域可抽1张初始能量消耗为6的卡牌。其能量消耗变为0。",
+    "defId": ""
+  },
+  {
+    "name": "the sacred timeline",
+    "nameZh": "神圣时间线",
+    "description": "first to fill this gets a copy of their opening hand.",
+    "descriptionZh": "率先填满此区域的玩家会获得其起始手牌的复制。",
+    "defId": ""
+  },
+  {
+    "name": "the sandbar",
+    "nameZh": "沙洲",
+    "description": "cards with abilities can’t be played here.",
+    "descriptionZh": "不能在此区域放置带有特殊效果的牌。",
+    "defId": ""
+  },
+  {
+    "name": "the space throne",
+    "nameZh": "太空王座",
+    "description": "only one card can be here for each player.",
+    "descriptionZh": "双方在此区域仅可有1张卡牌。",
+    "defId": ""
+  },
+  {
+    "name": "the superflow",
+    "nameZh": "交界地",
+    "description": "if you have no cards here, +1 energy each turn.",
+    "descriptionZh": "若你在此区域没有卡牌，每回合+1能量。",
+    "defId": ""
+  },
+  {
+    "name": "the triskelion",
+    "nameZh": "三曲翼总部",
+    "description": "fill each player's hand with random cards.",
+    "descriptionZh": "用随机卡牌填满双方手牌。",
+    "defId": ""
+  },
+  {
+    "name": "the vault",
+    "nameZh": "穹顶监狱",
+    "description": "on turn 6, cards can't be played here.",
+    "descriptionZh": "在第6回合，此区域不能放置卡牌。",
+    "defId": ""
+  },
+  {
+    "name": "throne room",
+    "nameZh": "王座室",
+    "description": "card(s) here with the highest power have their power doubled.",
+    "descriptionZh": "此区域战力最高的牌战力翻倍。",
+    "defId": ""
+  },
+  {
+    "name": "tinkerer's workshop",
+    "nameZh": "修补匠的作坊",
+    "description": "+1 energy this turn.",
+    "descriptionZh": "本回合+1能量。",
+    "defId": ""
+  },
+  {
+    "name": "titan",
+    "nameZh": "泰坦",
+    "description": "6-cost cards cost  less.",
+    "descriptionZh": "初始能量消耗为6的卡牌-1能量消耗。",
+    "defId": ""
+  },
+  {
+    "name": "transia",
+    "nameZh": "特兰西亚",
+    "description": "swap the positions of each location.",
+    "descriptionZh": "调换所有区域的位置。",
+    "defId": ""
+  },
+  {
+    "name": "tva",
+    "nameZh": "时间变异管理局",
+    "description": "after turn 4, end the game.",
+    "descriptionZh": "第4回合结束时，对战结束。",
+    "defId": ""
+  },
+  {
+    "name": "utopia",
+    "nameZh": "乌托邦",
+    "description": "on turn 4, cards here can move.",
+    "descriptionZh": "在第4回合，此区域的卡牌可以移动。",
+    "defId": ""
+  },
+  {
+    "name": "vibranium mines",
+    "nameZh": "振金矿",
+    "description": "after you play here, shuffle 3 vibranium into your deck.",
+    "descriptionZh": "你在此区域放置卡牌后，会将3张振金洗入你的卡组。",
+    "defId": ""
+  },
+  {
+    "name": "vormir",
+    "nameZh": "弗米尔星",
+    "description": "the first card you play here is destroyed.",
+    "descriptionZh": "摧毁你在此区域放置的第1张卡牌。",
+    "defId": ""
+  },
+  {
+    "name": "wakanda",
+    "nameZh": "瓦坎达",
+    "description": "cards here can't be destroyed.",
+    "descriptionZh": "此区域的牌不会被摧毁。",
+    "defId": ""
+  },
+  {
+    "name": "wakandan embassy",
+    "nameZh": "瓦坎达大使馆",
+    "description": "give +2 power to cards in players' hands.",
+    "descriptionZh": "双方手牌中的卡牌+2战力。",
+    "defId": ""
+  },
+  {
+    "name": "warrior falls",
+    "nameZh": "战士瀑布",
+    "description": "after each turn, cards here fight! destroy the weakest one(s).",
+    "descriptionZh": "每回合后，此区域的牌会互斗！摧毁最弱的牌。",
+    "defId": ""
+  },
+  {
+    "name": "washington d.c.",
+    "nameZh": "华盛顿特区",
+    "description": "cards here with no abilities have +3 power.",
+    "descriptionZh": "此区域中无特殊效果的卡牌+3战力。",
+    "defId": ""
+  },
+  {
+    "name": "weirdworld",
+    "nameZh": "怪奇世界",
+    "description": "both players draw from their opponent's decks.",
+    "descriptionZh": "双方均从对方卡组中抽卡牌。",
+    "defId": ""
+  },
+  {
+    "name": "westview",
+    "nameZh": "西景镇",
+    "description": "turns into a new location on turn 4.",
+    "descriptionZh": "在第4回合，变成一个新区域。",
+    "defId": ""
+  },
+  {
+    "name": "worldship",
+    "nameZh": "世界之舟",
+    "description": "destroy the other locations.",
+    "descriptionZh": "摧毁其他区域。",
+    "defId": ""
+  },
+  {
+    "name": "x-mansion",
+    "nameZh": "X学院",
+    "description": "after turn 3, add a random card here for each player.",
+    "descriptionZh": "第3回合后，为双方在此区域随机添加1张卡牌。",
+    "defId": ""
+  },
+  {
+    "name": "xandar",
+    "nameZh": "山达尔星",
+    "description": "cards here have\n+1 power.",
+    "descriptionZh": "此区域的卡牌+1战力",
+    "defId": ""
+  }
+]

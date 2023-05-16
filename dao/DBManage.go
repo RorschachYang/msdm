@@ -28,7 +28,7 @@ func init() {
 		panic(err)
 	}
 
-	AutoMigrate()
+	// AutoMigrate()
 }
 
 func AutoMigrate() {

@@ -217,22 +217,6 @@ func ConvertVariantsTags() {
 	ToJSON(variantTags, "variantTags.json", "./data/data/")
 }
 
-type CardTranslation struct {
-	Cid           string `json:"cid"`
-	Description   string `json:"description"`
-	DescriptionZh string `json:"descriptionZh"`
-	NameZh        string `json:"nameZh"`
-	Name          string `json:"name"`
-}
-
-type LocationTranslation struct {
-	Name          string `json:"name"`
-	NameZh        string `json:"nameZh"`
-	Description   string `json:"description"`
-	DescriptionZh string `json:"descriptionZh"`
-	DefID         string `json:"defId"`
-}
-
 func TranslateCard() {
 	// 读取第一个文件
 	content, err := ioutil.ReadFile("./data/data/cards.json")
