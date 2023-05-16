@@ -20,6 +20,7 @@ type Deck struct {
 	ID          uint   `gorm:"primaryKey"`
 	Name        string `gorm:"not null"`
 	Description string `gorm:"size:512"`
+	Code        string `gorm:"size:1024"`
 	Cards       []Card `gorm:"many2many:deck_cards"`
 	Author      User
 	AuthorID    uint

@@ -11,13 +11,15 @@ var db *gorm.DB
 var db_address string
 var db_username string
 var db_secret string
+var db_name string
 
 func init() {
 	db_address = os.Getenv("DATABASE_ADDRESS")
 	db_username = os.Getenv("DATABASE_USERNAME")
 	db_secret = os.Getenv("DATABASE_PASSWORD")
+	db_name = os.Getenv("DATABASE_NAME")
 
-	dsn := db_username + ":" + db_secret + "@tcp(" + db_address + ")/msdm?charset=utf8&parseTime=True&loc=Local"
+	dsn := db_username + ":" + db_secret + "@tcp(" + db_address + ")/" + db_name + "?charset=utf8&parseTime=True&loc=Local"
 	var err error
 	db, err = gorm.Open(mysql.New(mysql.Config{
 		DSN:               dsn, // DSN data source name
@@ -26,7 +28,7 @@ func init() {
 		panic(err)
 	}
 
-	// AutoMigrate()
+	AutoMigrate()
 }
 
 func AutoMigrate() {

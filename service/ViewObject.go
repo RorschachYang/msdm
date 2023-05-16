@@ -55,3 +55,14 @@ type Tag struct {
 	Name   string `json:"name"`
 	NameZh string `json:"nameZh"`
 }
+
+type Deck struct {
+	Name        string `json:"name"`
+	Description string `json:"description"`
+	Code        string `json:"code"`
+	Cards       []Card `json:"cards"`
+	AuthorID    string `json:"authorID"`
+	AuthorName  string `json:"authorName"`
+	CopiedTimes uint   `json:"copied"`
+	CreatedAt   string `json:"createAt"`
+}
