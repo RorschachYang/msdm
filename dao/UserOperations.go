@@ -6,19 +6,22 @@ import (
 	"gorm.io/gorm"
 )
 
-func UpsertUser(openid string, nickName string, avatarURL string) error {
-	var user User
-	err := db.Where("open_id = ?", openid).First(&user).Error
-	if err != nil && err != gorm.ErrRecordNotFound {
+func CreateUser(user *User) error {
+	return db.Create(user).Error
+}
+
+func UpdatetUser(user *User) error {
+	var existingUser User
+	err := db.Where("open_id = ?", user.OpenID).First(&existingUser).Error
+	if err != nil {
 		return err
 	}
-	if err == nil {
-		user.NickName = nickName
-		user.AvatarURL = avatarURL
-		return db.Save(&user).Error
-	}
-	newUser := User{OpenID: openid, NickName: nickName, AvatarURL: avatarURL}
-	return db.Create(&newUser).Error
+
+	existingUser.AvatarURL = user.AvatarURL
+	existingUser.NickName = user.NickName
+	existingUser.OpenID = user.OpenID
+
+	return db.Save(&existingUser).Error
 }
 
 func GetUserByOpenID(openID string) (*User, error) {

@@ -1,7 +1,6 @@
 package service
 
 import (
-	"fmt"
 	"regexp"
 
 	"github.com/RorschachYang/msdm/dao"
@@ -16,24 +15,23 @@ func CreateDeck(name string, description string, code string, openid string) {
 		cardNames = append(cardNames, match[1])
 	}
 
-	fmt.Println(cardNames)
-	fmt.Println(name)
-	fmt.Println(description)
-	fmt.Println(openid)
 	cards, _ := dao.GetCardsByNames(cardNames)
-	for _, card := range cards {
-		fmt.Println(card.Name)
-		fmt.Println(card.NameZh)
+	user, err := dao.GetUserByOpenID(openid)
+	if err != nil {
+		return
 	}
-	// user, _ := dao.GetUserByOpenID(openid)
 
-	// newDeck := &dao.Deck{
-	// 	Name:        name,
-	// 	Description: description,
-	// 	Code:        code,
-	// 	Cards:       cards,
-	// 	Author:      *user,
-	// }
+	newDeck := &dao.Deck{
+		Name:        name,
+		Description: description,
+		Code:        code,
+		Cards:       cards,
+		Author:      *user,
+	}
 
-	// dao.CreateDeck(newDeck)
+	dao.CreateDeck(newDeck)
+}
+
+func GetDecks() {
+
 }

@@ -23,3 +23,8 @@ func GetDecksByAuthorID(authorID uint) ([]Deck, error) {
 	err := db.Where("author_id = ?", authorID).Find(&decks).Error
 	return decks, err
 }
+
+func DeleteDeckByID(deckID uint) error {
+	deck := Deck{ID: deckID}
+	return db.Delete(&deck).Error
+}
