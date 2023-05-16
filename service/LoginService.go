@@ -52,6 +52,7 @@ func Login(code string) string {
 	//将openid存入数据库
 	_, dberr := dao.GetUserByOpenID(loginResp.OpenID)
 	if errors.Is(dberr, gorm.ErrRecordNotFound) {
+		fmt.Println("未找到用户，创建用户")
 		newUser := &dao.User{
 			OpenID:    loginResp.OpenID,
 			NickName:  "",
