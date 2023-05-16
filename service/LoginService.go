@@ -49,18 +49,22 @@ func Login(code string) string {
 		panic(err)
 	}
 
-	//将openid存入数据库
-	_, dberr := dao.GetUserByOpenID(loginResp.OpenID)
-	if errors.Is(dberr, gorm.ErrRecordNotFound) {
-		fmt.Println("未找到用户，创建用户")
-		newUser := &dao.User{
-			OpenID:    loginResp.OpenID,
-			NickName:  "",
-			AvatarURL: "",
-		}
-		dao.CreateUser(newUser)
-		fmt.Println("创建了user openid" + loginResp.OpenID)
-	}
+	CreateUser(loginResp.OpenID)
 
 	return loginResp.OpenID
+}
+
+func CreateUser(openid string) {
+	// 将openid存入数据库
+	existingUser, err := dao.GetUserByOpenID(openid)
+	if err == nil {
+		fmt.Println("User login, ID is" + string(existingUser.ID))
+
+	} else if errors.Is(err, gorm.ErrRecordNotFound) {
+		newUser := &dao.User{
+			OpenID: openid,
+		}
+
+		dao.CreateUser(newUser)
+	}
 }
