@@ -17,6 +17,7 @@ func main() {
 	http.HandleFunc("/getVariantsByCid", controller.GetVariantsByCardID)
 	http.HandleFunc("/getLocation", controller.GetLocation)
 	http.HandleFunc("/login", controller.Login)
+	http.HandleFunc("/createDeck", controller.CreateDeck)
 
 	fmt.Println("Server started at port:80")
 	http.ListenAndServe(":80", nil)

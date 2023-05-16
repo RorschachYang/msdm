@@ -7,7 +7,7 @@ import (
 	"github.com/RorschachYang/msdm/service"
 )
 
-func createDeckHandler(w http.ResponseWriter, r *http.Request) {
+func CreateDeck(w http.ResponseWriter, r *http.Request) {
 	var deck service.Deck
 	err := json.NewDecoder(r.Body).Decode(&deck)
 	if err != nil {
