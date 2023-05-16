@@ -5,14 +5,9 @@ import (
 	"net/http"
 
 	"github.com/RorschachYang/msdm/controller"
-	"github.com/RorschachYang/msdm/tool"
 )
 
 func main() {
-
-	tool.CardsTranslationToJson()
-	tool.LocationTranslationToJson()
-	tool.TagTranslationToJson()
 
 	http.HandleFunc("/listCards", controller.ListCards)
 	http.HandleFunc("/listVariants", controller.ListVariants)

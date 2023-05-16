@@ -6,6 +6,12 @@ import (
 	"github.com/RorschachYang/msdm/dao"
 )
 
+func DBToJSON() {
+	CardsTranslationToJson()
+	LocationTranslationToJson()
+	TagTranslationToJson()
+}
+
 func CardsTranslationToJson() {
 	cards, _ := dao.GetAllCards()
 	var cardsTranslation []CardTranslation
