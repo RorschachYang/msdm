@@ -51,9 +51,12 @@ func Login(code string) string {
 	_, dberr := dao.GetUserByOpenID(loginResp.OpenID)
 	if dberr != nil {
 		newUser := &dao.User{
-			OpenID: loginResp.OpenID,
+			OpenID:    loginResp.OpenID,
+			NickName:  "",
+			AvatarURL: "",
 		}
 		dao.CreateUser(newUser)
+		fmt.Println("创建了user，openid：" + loginResp.OpenID)
 	}
 
 	return loginResp.OpenID
