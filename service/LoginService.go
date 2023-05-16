@@ -3,13 +3,12 @@ package service
 import (
 	"crypto/tls"
 	"encoding/json"
-	"errors"
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"strconv"
 
 	"github.com/RorschachYang/msdm/dao"
-	"gorm.io/gorm"
 )
 
 type wxLoginResponse struct {
@@ -56,11 +55,12 @@ func Login(code string) string {
 
 func CreateUser(openid string) {
 	// 将openid存入数据库
-	existingUser, err := dao.GetUserByOpenID(openid)
-	if err == nil {
-		fmt.Println("User login, ID is" + string(existingUser.ID))
+	existingUser, _ := dao.GetUserByOpenID(openid)
+	if existingUser != nil {
+		id := strconv.Itoa(int(existingUser.ID))
+		fmt.Println("User login, ID is" + id)
 
-	} else if errors.Is(err, gorm.ErrRecordNotFound) {
+	} else if existingUser == nil {
 		newUser := &dao.User{
 			OpenID: openid,
 		}
