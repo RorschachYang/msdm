@@ -9,14 +9,6 @@ import (
 	"github.com/RorschachYang/msdm/dao"
 )
 
-type DeckCodeDecoded struct {
-	Cards []DeckCodeDecodedCard `json:"Cards"`
-}
-
-type DeckCodeDecodedCard struct {
-	CardDefId string `json:"CardDefId"`
-}
-
 func CreateDeck(name string, description string, code string, openid string) {
 
 	decodedStr, _ := base64.StdEncoding.DecodeString(code)
