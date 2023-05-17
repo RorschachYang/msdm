@@ -295,8 +295,8 @@
   },
   {
     "cid": "47",
-    "description": "On Reveal: If this is at the middle location, shuffle your hand into your deck and draw 3 cards.",
-    "descriptionZh": "揭示：若此牌在中间区域，将你的手牌洗进卡组并抽3张牌。",
+    "description": "On Reveal: Each player draws a card.",
+    "descriptionZh": "揭示：双方各抽1张牌。",
     "nameZh": "水晶",
     "name": "Crystal"
   },
@@ -428,7 +428,7 @@
   },
   {
     "cid": "455",
-    "description": "",
+    "description": "After your opponent plays an Ongoing card here, remove its abilities.",
     "descriptionZh": "",
     "nameZh": "",
     "name": "Echo"
@@ -624,7 +624,7 @@
   },
   {
     "cid": "443",
-    "description": "At the start of the game, unlock the secret ability of all your cards with no abilities.",
+    "description": "At the start of the game, unlock the potential of your cards with no abilities.",
     "descriptionZh": "对战开始时，解锁你无特殊效果的卡牌的隐藏效果。",
     "nameZh": "至高进化",
     "name": "High Evolutionary"
@@ -729,7 +729,7 @@
   },
   {
     "cid": "110",
-    "description": "On Reveal: The next card your opponent plays must be played here, if possible.",
+    "description": "Ongoing: Players must play their first card here each turn. (if possible)",
     "descriptionZh": "",
     "nameZh": "",
     "name": "Jean Grey"
@@ -799,8 +799,8 @@
   },
   {
     "cid": "120",
-    "description": "You can return this to your hand to gain +2 Power.",
-    "descriptionZh": "",
+    "description": "When this returns to your hand, +2 Power. Returns at the start of each turn.",
+    "descriptionZh": "每回合开始时，此牌会退回到手牌，并+2战力。",
     "nameZh": "凯蒂·普莱德",
     "name": "Kitty Pryde"
   },
@@ -862,7 +862,7 @@
   },
   {
     "cid": "132",
-    "description": "On Reveal: Change other locations into this location.",
+    "description": "On Reveal: Replace each other location with this one.",
     "descriptionZh": "",
     "nameZh": "",
     "name": "Legion"
@@ -974,7 +974,7 @@
   },
   {
     "cid": "151",
-    "description": "As you play this, disguise it as Mister Fantastic. After the final turn, reveal it.",
+    "description": "On Reveal: Copy the lowest-Cost card in your opponent's hand into your hand. Give it +2 Power.",
     "descriptionZh": "",
     "nameZh": "",
     "name": "Mirage"
@@ -1366,7 +1366,7 @@
   },
   {
     "cid": "317",
-    "description": "On Reveal: Add a random 1-Cost card to each location",
+    "description": "On Reveal: Add a random 1-Cost card to each location.",
     "descriptionZh": "揭示：随机将1张初始能量消耗为1的卡牌添加到每个区域。",
     "nameZh": "山娜",
     "name": "Shanna"
@@ -1590,7 +1590,7 @@
   },
   {
     "cid": "413",
-    "description": "On Reveal: Revive one of your destroyed cards with +5 Power. If it's Jean Grey, +10 Power.",
+    "description": "On Reveal: Revive one of your destroyed cards and merge with it. That card can move each turn.",
     "descriptionZh": "",
     "nameZh": "",
     "name": "The Phoenix Force"
@@ -1716,15 +1716,15 @@
   },
   {
     "cid": "294",
-    "description": "On Reveal: Next turn, cards in both players' hands cost 4.",
-    "descriptionZh": "揭示：下回合双方所有手牌的能量消耗均为4。",
+    "description": "On Reveal: All cards cost 4 until the end of next turn.",
+    "descriptionZh": "揭示：在下一回合结束前，所有卡牌的能量消耗都为4。",
     "nameZh": "浪",
     "name": "Wave"
   },
   {
     "cid": "297",
-    "description": "On Reveal: Draw a copy of the highest Cost card in your opponent's hand.",
-    "descriptionZh": "揭示：复制1张对手手牌中能量消耗最高的卡牌。",
+    "description": "On Reveal: Copy the highest-Cost card in your opponent's hand into your hand.",
+    "descriptionZh": "揭示：复制对手手牌中能量消耗最高的卡牌到你的手牌。",
     "nameZh": "白皇后",
     "name": "White Queen"
   },

@@ -19,9 +19,9 @@ func JSONToDB() {
 	LocationsDataToDB()
 	TitlesDataToDB()
 	TranslateCardToDB() //先翻译卡牌，让变体可以获取到卡牌中文名
-	TranslateLocation()
+	TranslateLocationToDB()
 	VariantsDataToDB()
-	TagTranslationToJson()
+	TranslateTagToDB()
 }
 
 func CardsDataToDB() {

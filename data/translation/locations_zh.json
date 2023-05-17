@@ -212,7 +212,7 @@
   {
     "name": "fogwell's gym",
     "nameZh": "福格维尔的健身房",
-    "description": "both players get double card xp this game.",
+    "description": "both players get double boosters this game.",
     "descriptionZh": "双方本局对战均获得双倍强化套组。",
     "defId": ""
   },
@@ -319,6 +319,13 @@
     "nameZh": "克林监狱",
     "description": "you can't play cards here after turn 4.",
     "descriptionZh": "第4回合后，你不能在此区域放置卡牌",
+    "defId": ""
+  },
+  {
+    "name": "lake hellas",
+    "nameZh": "",
+    "description": "1-cost cards here have + power.",
+    "descriptionZh": "",
     "defId": ""
   },
   {
@@ -858,6 +865,13 @@
     "nameZh": "西景镇",
     "description": "turns into a new location on turn 4.",
     "descriptionZh": "在第4回合，变成一个新区域。",
+    "defId": ""
+  },
+  {
+    "name": "white hot room",
+    "nameZh": "",
+    "description": "first to fill this gets +3 max energy.",
+    "descriptionZh": "",
     "defId": ""
   },
   {
