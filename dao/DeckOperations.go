@@ -41,7 +41,7 @@ func GetRecentlyCreatedDecks(duration time.Duration) ([]Deck, error) {
 	now := time.Now()
 	startTime := now.Add(-duration)
 
-	err := db.Preload("Card").Preload("User").Where("created_at > ?", startTime).Order("created_at desc").Find(&decks).Error
+	err := db.Preload("Author").Preload("Cards").Where("created_at > ?", startTime).Order("created_at desc").Find(&decks).Error
 	if err != nil {
 		return nil, err
 	}
