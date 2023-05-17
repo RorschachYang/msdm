@@ -3,41 +3,51 @@ package service
 import (
 	"encoding/base64"
 	"encoding/json"
-	"regexp"
+	"fmt"
 	"strconv"
 	"time"
 
 	"github.com/RorschachYang/msdm/dao"
 )
 
+type DeckCodeDecoded struct {
+	Cards []DeckCodeDecodedCard `json:"Cards"`
+}
+
+type DeckCodeDecodedCard struct {
+	CardDefId string `json:"CardDefId"`
+}
+
 func CreateDeck(name string, description string, code string, openid string) {
-	regex := regexp.MustCompile(`#([^#]+)#`)
-	matches := regex.FindStringSubmatch(code)
+	// regex := regexp.MustCompile(`#([^#]+)#`)
+	// matches := regex.FindStringSubmatch(code)
 
-	decodedStr, _ := base64.StdEncoding.DecodeString(matches[0])
+	decodedStr, _ := base64.StdEncoding.DecodeString(code)
 
-	var data map[string][]map[string]string
-	if err := json.Unmarshal([]byte(decodedStr), &data); err != nil {
-		panic(err)
+	var data DeckCodeDecoded
+	err := json.Unmarshal([]byte(decodedStr), &data)
+	if err != nil {
+		fmt.Println("解析JSON失败：", err)
+		return
 	}
 
-	var cardDefIds []string
-	for _, card := range data["Cards"] {
-		cardDefIds = append(cardDefIds, card["CardDefId"])
+	cardDefIds := make([]string, 0)
+	for _, card := range data.Cards {
+		cardDefIds = append(cardDefIds, card.CardDefId)
 	}
 
 	cards, _ := dao.GetCardsByDefids(cardDefIds)
-	user, err := dao.GetUserByOpenID(openid)
-	if err != nil {
-		return
-	}
+	// user, err := dao.GetUserByOpenID(openid)
+	// if err != nil {
+	// 	return
+	// }
 
 	newDeck := &dao.Deck{
 		Name:        name,
 		Description: description,
 		Code:        code,
 		Cards:       cards,
-		Author:      *user,
+		// Author:      *user,
 	}
 
 	dao.CreateDeck(newDeck)
