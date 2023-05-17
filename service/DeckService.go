@@ -2,8 +2,7 @@ package service
 
 import (
 	"encoding/base64"
-	"encoding/json"
-	"fmt"
+	"regexp"
 	"strconv"
 	"time"
 
@@ -19,24 +18,13 @@ type DeckCodeDecodedCard struct {
 }
 
 func CreateDeck(name string, description string, code string, openid string) {
-	// regex := regexp.MustCompile(`#([^#]+)#`)
-	// matches := regex.FindStringSubmatch(code)
 
 	decodedStr, _ := base64.StdEncoding.DecodeString(code)
 
-	var data DeckCodeDecoded
-	err := json.Unmarshal([]byte(decodedStr), &data)
-	if err != nil {
-		fmt.Println("解析JSON失败：", err)
-		return
-	}
+	re := regexp.MustCompile(`"CardDefId":"([^"]+)"`)
+	matches := re.FindAllStringSubmatch(string(decodedStr), -1)
 
-	cardDefIds := make([]string, 0)
-	for _, card := range data.Cards {
-		cardDefIds = append(cardDefIds, card.CardDefId)
-	}
-
-	cards, _ := dao.GetCardsByDefids(cardDefIds)
+	cards, _ := dao.GetCardsByDefids(matches[0])
 	// user, err := dao.GetUserByOpenID(openid)
 	// if err != nil {
 	// 	return
