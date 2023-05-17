@@ -45,10 +45,14 @@ func GetRecentlyCreatedDecks(days int) ([]Deck, error) {
 	var decks []Deck
 	for _, deckDO := range decksDO {
 		id := strconv.Itoa(int(deckDO.ID))
-		var cards []string
+		var cards []Card
 		for _, card := range deckDO.Cards {
-			cardid := strconv.Itoa(int(card.ID))
-			cards = append(cards, cardid)
+			newCard := Card{
+				Cid:                strconv.Itoa(int(card.ID)),
+				Cost:               card.Cost,
+				ImageURLCompressed: CompressedImageURLPrefix + "cards/" + card.ImageURLName + ".webp",
+			}
+			cards = append(cards, newCard)
 		}
 		newDeck := Deck{
 			ID:          id,

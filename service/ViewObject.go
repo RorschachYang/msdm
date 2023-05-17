@@ -57,13 +57,13 @@ type Tag struct {
 }
 
 type Deck struct {
-	ID          string   `json:"id"`
-	Name        string   `json:"name"`
-	Description string   `json:"description"`
-	Code        string   `json:"code"`
-	Cards       []string `json:"cards"`
-	AuthorID    string   `json:"authorID"`
-	AuthorName  string   `json:"authorName"`
-	CopiedTimes uint     `json:"copied"`
-	CreatedAt   string   `json:"createAt"`
+	ID          string `json:"id"`
+	Name        string `json:"name"`
+	Description string `json:"description"`
+	Code        string `json:"code"`
+	Cards       []Card `json:"cards"`
+	AuthorID    string `json:"authorID"`
+	AuthorName  string `json:"authorName"`
+	CopiedTimes uint   `json:"copied"`
+	CreatedAt   string `json:"createAt"`
 }
