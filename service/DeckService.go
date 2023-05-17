@@ -16,7 +16,13 @@ func CreateDeck(name string, description string, code string, openid string) {
 	re := regexp.MustCompile(`"CardDefId":"([^"]+)"`)
 	matches := re.FindAllStringSubmatch(string(decodedStr), -1)
 
-	cards, _ := dao.GetCardsByDefids(matches[0])
+	var results []string
+
+	for _, match := range matches {
+		results = append(results, match[1])
+	}
+
+	cards, _ := dao.GetCardsByDefids(results)
 	// user, err := dao.GetUserByOpenID(openid)
 	// if err != nil {
 	// 	return
