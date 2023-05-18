@@ -21,12 +21,12 @@ func CreateDeck(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Failed to decode code", http.StatusBadRequest)
 		return
 	}
-	decodedCode, err2 := base64.StdEncoding.DecodeString(deck.Code)
-	if err2 != nil {
-		http.Error(w, "Failed to decode code", http.StatusBadRequest)
-		return
-	}
-	service.CreateDeck(deck.Name, string(decodedDescription), string(decodedCode), deck.AuthorID)
+	// decodedCode, err2 := base64.StdEncoding.DecodeString(deck.Code)
+	// if err2 != nil {
+	// 	http.Error(w, "Failed to decode code", http.StatusBadRequest)
+	// 	return
+	// }
+	service.CreateDeck(deck.Name, string(decodedDescription), deck.Code, deck.AuthorID)
 
 	// 返回创建成功的响应
 	w.WriteHeader(http.StatusCreated)
