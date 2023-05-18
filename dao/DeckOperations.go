@@ -47,3 +47,12 @@ func GetRecentlyCreatedDecks(duration time.Duration) ([]Deck, error) {
 	}
 	return decks, nil
 }
+
+func GetDeckByID(id uint) (*Deck, error) {
+	var deck Deck
+	result := db.Preload("Author").Preload("Cards").First(&deck, id)
+	if result.Error != nil {
+		return nil, result.Error
+	}
+	return &deck, nil
+}

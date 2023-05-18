@@ -80,3 +80,30 @@ func DeleteDeck(id uint) error {
 	}
 	return nil
 }
+
+func GetDeckByID(id uint) *Deck {
+	deckDO, err := dao.GetDeckByID(id)
+	if err == nil {
+		id := strconv.Itoa(int(deckDO.ID))
+		var cards []Card
+		for _, card := range deckDO.Cards {
+			newCard := Card{
+				Cid:                strconv.Itoa(int(card.ID)),
+				Cost:               card.Cost,
+				ImageURLCompressed: CompressedImageURLPrefix + "cards/" + card.ImageURLName + ".webp",
+			}
+			cards = append(cards, newCard)
+		}
+		deck := Deck{
+			ID:          id,
+			Name:        deckDO.Name,
+			Description: deckDO.Description,
+			Code:        deckDO.Code,
+			AuthorID:    deckDO.Author.OpenID,
+			Cards:       cards,
+			CopiedTimes: deckDO.CopiedTimes,
+		}
+		return &deck
+	}
+	return nil
+}

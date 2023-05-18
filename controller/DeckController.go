@@ -50,12 +50,27 @@ func GetDecksCreatedLastDays(w http.ResponseWriter, r *http.Request) {
 
 func DeleteDeck(w http.ResponseWriter, r *http.Request) {
 	// 解析ID参数
+	idstr := r.URL.Query().Get("id")
+
+	id, _ := strconv.Atoi(idstr)
+
+	service.DeleteDeck(uint(id))
+
+	// 返回创建成功的响应
+	w.WriteHeader(http.StatusCreated)
+}
+
+func GetDeckByID(w http.ResponseWriter, r *http.Request) {
+	// 解析ID参数
 	id := r.URL.Query().Get("id")
 
 	idstr, _ := strconv.Atoi(id)
 
-	service.DeleteDeck(uint(idstr))
+	deck := service.GetDeckByID(uint(idstr))
 
-	// 返回创建成功的响应
-	w.WriteHeader(http.StatusCreated)
+	// 返回 JSON 数据
+	if err := json.NewEncoder(w).Encode(&deck); err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
 }

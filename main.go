@@ -20,6 +20,7 @@ func main() {
 	http.HandleFunc("/createDeck", controller.CreateDeck)
 	http.HandleFunc("/listDecks", controller.GetDecksCreatedLastDays)
 	http.HandleFunc("/deleteDeck", controller.DeleteDeck)
+	http.HandleFunc("/getDeck", controller.GetDeckByID)
 
 	fmt.Println("Server started at port:80")
 	http.ListenAndServe(":80", nil)
