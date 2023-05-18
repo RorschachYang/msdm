@@ -21,6 +21,7 @@ func main() {
 	http.HandleFunc("/listDecks", controller.GetDecksCreatedLastDays)
 	http.HandleFunc("/deleteDeck", controller.DeleteDeck)
 	http.HandleFunc("/getDeck", controller.GetDeckByID)
+	http.HandleFunc("/getUpers", controller.GetUpers)
 
 	fmt.Println("Server started at port:80")
 	http.ListenAndServe(":80", nil)

@@ -4,6 +4,7 @@ import (
 	"encoding/base64"
 	"regexp"
 	"strconv"
+	"strings"
 	"time"
 
 	"github.com/RorschachYang/msdm/dao"
@@ -106,4 +107,9 @@ func GetDeckByID(id uint) *Deck {
 		return &deck
 	}
 	return nil
+}
+
+func GetUpers() []string {
+	uperlist := strings.Split(uper, ",")
+	return uperlist
 }

@@ -74,3 +74,16 @@ func GetDeckByID(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 }
+
+func GetUpers(w http.ResponseWriter, r *http.Request) {
+	w.Header().Set("Content-Type", "application/json")
+
+	uperlist := service.GetUpers()
+
+	// jsonData, _ := json.Marshal(uperlist)
+	// 返回 JSON 数据
+	if err := json.NewEncoder(w).Encode(uperlist); err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+}

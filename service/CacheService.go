@@ -10,6 +10,7 @@ var TagsCache []Tag
 var ArtistsCache []Artist
 var appID string
 var appSecret string
+var uper string
 
 func init() {
 	CardsCache = GetAllCards()
@@ -17,6 +18,7 @@ func init() {
 	VariantsCache = GetAllVariants()
 	appID = os.Getenv("APP_ID")
 	appSecret = os.Getenv("APP_SECRET")
+	uper = os.Getenv("UPER")
 }
 
 func GetVariantsCache() []Variant {
