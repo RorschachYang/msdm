@@ -2,6 +2,7 @@ package service
 
 import (
 	"encoding/base64"
+	"fmt"
 	"regexp"
 	"strconv"
 	"time"
@@ -13,15 +14,17 @@ func CreateDeck(name string, description string, code string, openid string) {
 
 	decodedStr, _ := base64.StdEncoding.DecodeString(code)
 
+	fmt.Println(decodedStr)
 	re := regexp.MustCompile(`"CardDefId":"([^"]+)"`)
 	matches := re.FindAllStringSubmatch(string(decodedStr), -1)
+	fmt.Println(matches)
 
 	var results []string
 
 	for _, match := range matches {
 		results = append(results, match[1])
 	}
-
+	fmt.Println(results)
 	cards, _ := dao.GetCardsByDefids(results)
 	// user, err := dao.GetUserByOpenID(openid)
 	// if err != nil {
