@@ -217,22 +217,6 @@ func ConvertVariantsTags() {
 	ToJSON(variantTags, "variantTags.json", "./data/data/")
 }
 
-type CardTranslation struct {
-	Cid           string `json:"cid"`
-	Description   string `json:"description"`
-	DescriptionZh string `json:"descriptionZh"`
-	NameZh        string `json:"nameZh"`
-	Name          string `json:"name"`
-}
-
-type LocationTranslation struct {
-	Name          string `json:"name"`
-	NameZh        string `json:"nameZh"`
-	Description   string `json:"description"`
-	DescriptionZh string `json:"descriptionZh"`
-	DefID         string `json:"defId"`
-}
-
 func TranslateCard() {
 	// 读取第一个文件
 	content, err := ioutil.ReadFile("./data/data/cards.json")
@@ -374,11 +358,14 @@ func GetCardsFromHTML() {
 	var cards []CardSource
 	doc.Find("a.simple-card").Each(func(i int, s *goquery.Selection) {
 		var card CardSource
+		//去除链接后的参数
+		imageURL := regexp.MustCompile(`\.webp\?v=\d+`).ReplaceAllString(s.AttrOr("data-src", ""), ".webp")
+
 		card.Name = s.AttrOr("data-name", "")
 		card.Cost = s.AttrOr("data-cost", "")
 		card.Power = s.AttrOr("data-power", "")
 		card.Ability = s.AttrOr("data-ability", "")
-		card.Src = s.AttrOr("data-src", "")
+		card.Src = imageURL
 		card.CID = s.AttrOr("data-cid", "")
 		card.Rarity = s.AttrOr("data-rarity", "")
 		card.Sketcher = s.AttrOr("data-sketcher", "")
@@ -393,7 +380,9 @@ func GetCardsFromHTML() {
 
 		// Find all variants
 		s.Find("img.lazy").Each(func(j int, v *goquery.Selection) {
-			card.Variants = append(card.Variants, v.AttrOr("data-src", ""))
+			//去除链接后的参数
+			imageURL := regexp.MustCompile(`\.webp\?v=\d+`).ReplaceAllString(v.AttrOr("data-src", ""), ".webp")
+			card.Variants = append(card.Variants, imageURL)
 		})
 
 		str := s.Find(".card-description").Text()
@@ -426,12 +415,14 @@ func GetVariantsFromHTML() {
 	var cards []VariantSource
 
 	doc.Find("a.simple-card").Each(func(i int, s *goquery.Selection) {
+		//去除链接后的参数
+		imageURL := regexp.MustCompile(`\.webp\?v=\d+`).ReplaceAllString(s.AttrOr("data-src", ""), ".webp")
 		card := VariantSource{
 			Name:        strings.TrimSpace(s.Find(".cardname").Text()),
 			Cost:        s.AttrOr("data-cost", ""),
 			Power:       s.AttrOr("data-power", ""),
 			Ability:     strings.TrimSpace(s.AttrOr("data-ability", "")),
-			Src:         s.AttrOr("data-src", ""),
+			Src:         imageURL,
 			Cid:         s.AttrOr("data-cid", ""),
 			Vid:         s.AttrOr("data-vid", ""),
 			Rarity:      s.AttrOr("data-rarity", ""),
@@ -503,12 +494,14 @@ func GetLocationsFromHTML() {
 	// 遍历每个location标签，并解析属性
 	locations := make([]LocationSource, 0)
 	doc.Find("a.location").Each(func(i int, s *goquery.Selection) {
+		//去除链接后的参数
+		imageURL := regexp.MustCompile(`\.webp\?v=\d+`).ReplaceAllString(s.AttrOr("data-src", ""), ".webp")
 		location := LocationSource{
 			Name:       s.AttrOr("data-name", ""),
 			Cost:       s.AttrOr("data-cost", ""),
 			Power:      s.AttrOr("data-power", ""),
 			Ability:    s.AttrOr("data-ability", ""),
-			ImageSrc:   s.AttrOr("data-src", ""),
+			ImageSrc:   imageURL,
 			Rarity:     s.AttrOr("data-rarity", ""),
 			Difficulty: s.AttrOr("data-difficulty", ""),
 			Status:     s.AttrOr("data-status", ""),

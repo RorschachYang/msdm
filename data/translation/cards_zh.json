@@ -1,0 +1,1808 @@
+[
+  {
+    "cid": "1",
+    "description": "\"Foolish rabble! You are beneath me!\"",
+    "descriptionZh": "“愚蠢的贱民！屈服于我！”",
+    "nameZh": "恶型怪",
+    "name": "Abomination"
+  },
+  {
+    "cid": "2",
+    "description": "On Reveal: If the last card you played has an On Reveal, copy its text. (if it's in play)",
+    "descriptionZh": "揭示：若你放置的上张卡牌有揭示效果且在场上，复制其卡面文字。",
+    "nameZh": "吸收人",
+    "name": "Absorbing Man"
+  },
+  {
+    "cid": "3",
+    "description": "At the end of each turn, if you are winning this location, draw a card.",
+    "descriptionZh": "每回合结束时，若你在此区域领先，抽一张牌。",
+    "nameZh": "宇宙术士亚当",
+    "name": "Adam Warlock"
+  },
+  {
+    "cid": "4",
+    "description": "On Reveal: Move the last enemy card played this turn to this location.",
+    "descriptionZh": "揭示：将本回合对手放置的最后一张卡牌移动至此区域。",
+    "nameZh": "气旋",
+    "name": "Aero"
+  },
+  {
+    "cid": "5",
+    "description": "Agatha starts in your hand and plays your cards for you.",
+    "descriptionZh": "阿加莎会在你的起始手牌中，并帮你出牌。",
+    "nameZh": "阿加莎·哈克尼斯",
+    "name": "Agatha Harkness"
+  },
+  {
+    "cid": "6",
+    "description": "On Reveal: Add a random card to your hand.",
+    "descriptionZh": "揭示：随机将1张卡牌添加到你的手牌。",
+    "nameZh": "13号特工",
+    "name": "Agent 13"
+  },
+  {
+    "cid": "7",
+    "description": "On Reveal: Add a random 4-Cost and 5-Cost card to your hand.",
+    "descriptionZh": "揭示：随机将初始能量消耗为4和5的各1张卡牌添加到手牌。",
+    "nameZh": "科尔森探员",
+    "name": "Agent Coulson"
+  },
+  {
+    "cid": "8",
+    "description": "Starts on the bottom of your deck. Draw this on turn 6.",
+    "descriptionZh": "对战开始时，出现在你的卡组最底部。若先前回合未抽出，会在第六回合抽到此牌。",
+    "nameZh": "阿美莉卡·查维兹",
+    "name": "America Chavez"
+  },
+  {
+    "cid": "9",
+    "description": "When one of your cards is destroyed, this flies out of your deck to replace it.",
+    "descriptionZh": "当你的一张牌被摧毁后，卡组中的此牌会替换那张牌。",
+    "nameZh": "天使",
+    "name": "Angel"
+  },
+  {
+    "cid": "10",
+    "description": "After you play a card here, +2 Power.",
+    "descriptionZh": "当你在此区域放置一张卡牌后，+2战力。",
+    "nameZh": "安吉拉",
+    "name": "Angela"
+  },
+  {
+    "cid": "386",
+    "description": "On Reveal: Each of your cards randomly chooses a location to move to.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Annihilus"
+  },
+  {
+    "cid": "407",
+    "description": "Ongoing: If you have 3 other cards here, +3 Power.",
+    "descriptionZh": "持续：若你在此区域有另外3张卡牌，+3战力。",
+    "nameZh": "蚁人",
+    "name": "Ant Man"
+  },
+  {
+    "cid": "12",
+    "description": "When you discard this from your hand, put it back with +4 Power.",
+    "descriptionZh": "当你从手牌中丢弃此卡牌时，此卡牌+4战力并回到手牌中。",
+    "nameZh": "天启",
+    "name": "Apocalypse"
+  },
+  {
+    "cid": "13",
+    "description": "Ongoing: Cards at this location can't be destroyed.",
+    "descriptionZh": "持续：此区域中的牌不能被摧毁。",
+    "nameZh": "铠",
+    "name": "Armor"
+  },
+  {
+    "cid": "14",
+    "description": "On Reveal: Destroy a random friendly card here. Add copies of it to the other locations.",
+    "descriptionZh": "揭示：随机摧毁此区域中你的1张其他卡牌，将它的1张复制添加到其他各个区域。",
+    "nameZh": "阿尼姆·索拉",
+    "name": "Arnim Zola"
+  },
+  {
+    "cid": "379",
+    "description": "If you have another card here at the end of your turn, destroy this.",
+    "descriptionZh": "若在你的回合结束时此区域有另一张牌，摧毁此牌。",
+    "nameZh": "海煞",
+    "name": "Attuma"
+  },
+  {
+    "cid": "18",
+    "description": "On Reveal: Your opponent draws a card. Set its Cost to 6.",
+    "descriptionZh": "揭示：对手抽1张卡牌，其能量消耗将变为6。",
+    "nameZh": "莫多男爵",
+    "name": "Baron Mordo"
+  },
+  {
+    "cid": "380",
+    "description": "On Reveal: Set the Power of all cards in your hand to 3.",
+    "descriptionZh": "揭示：将你所有手牌的战力设为3。",
+    "nameZh": "巴斯特",
+    "name": "Bast"
+  },
+  {
+    "cid": "20",
+    "description": "On Reveal: Return your other cards at this location to your hand. They cost 1 less.",
+    "descriptionZh": "揭示：将你在此区域的其他卡牌退回你的手牌中，并使其能量消耗-1。",
+    "nameZh": "野兽",
+    "name": "Beast"
+  },
+  {
+    "cid": "21",
+    "description": "After you play a card, this gains +1 Power.",
+    "descriptionZh": "当你放置一张卡牌后，+1战力。",
+    "nameZh": "毕肖普",
+    "name": "Bishop"
+  },
+  {
+    "cid": "22",
+    "description": "On Reveal: Your opponent must discard the lowest-Cost card in their hand.",
+    "descriptionZh": "揭示：对手必须丢弃手牌中能量消耗最低的卡牌。",
+    "nameZh": "黑霹雷",
+    "name": "Black Bolt"
+  },
+  {
+    "cid": "23",
+    "description": "If this is in your hand at the end of your turn, discard it.",
+    "descriptionZh": "若你的回合结束时此牌在你的手牌中，丢弃它。",
+    "nameZh": "黑猫",
+    "name": "Black Cat"
+  },
+  {
+    "cid": "24",
+    "description": "When this is destroyed, draw a card.",
+    "descriptionZh": "当此卡牌被丢弃时，抽一张卡",
+    "nameZh": "黑骑士",
+    "name": "Black Knight"
+  },
+  {
+    "cid": "25",
+    "description": "On Reveal: Double this card's Power.",
+    "descriptionZh": "揭示：此牌战力翻倍。",
+    "nameZh": "黑豹",
+    "name": "Black Panther"
+  },
+  {
+    "cid": "26",
+    "description": "On Reveal: Add a Widow's Bite to your opponent's hand.",
+    "descriptionZh": "揭示：将1张寡妇蛰添加到对手手牌。",
+    "nameZh": "黑寡妇",
+    "name": "Black Widow"
+  },
+  {
+    "cid": "27",
+    "description": "On Reveal: Discard a card from your hand.",
+    "descriptionZh": "揭示：丢弃一张手牌。",
+    "nameZh": "刀锋战士",
+    "name": "Blade"
+  },
+  {
+    "cid": "28",
+    "description": "You can move this each turn. When it moves, +1 Power.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Blink"
+  },
+  {
+    "cid": "29",
+    "description": "Ongoing: Nothing can move this to another location.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Blob"
+  },
+  {
+    "cid": "30",
+    "description": "Ongoing: Your other cards have +1 Power.",
+    "descriptionZh": "持续：你所有的其他卡牌+1战力。",
+    "nameZh": "蓝惊奇",
+    "name": "Blue Marvel"
+  },
+  {
+    "cid": "31",
+    "description": "On Reveal: Add 2 Broodlings to this location with the same Power.",
+    "descriptionZh": "揭示：在此区域添加2张战力与之相同的布鲁德虫。",
+    "nameZh": "布鲁德虫族",
+    "name": "Brood"
+  },
+  {
+    "cid": "32",
+    "description": "When this is destroyed, create the Winter Soldier in its place.",
+    "descriptionZh": "此牌被摧毁时在原地生成一张冬兵。",
+    "nameZh": "巴奇·巴恩斯",
+    "name": "Bucky Barnes"
+  },
+  {
+    "cid": "33",
+    "description": "On Reveal: The next card you draw will be a 2-Cost card. (if any are left)",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Bullseye"
+  },
+  {
+    "cid": "34",
+    "description": "On Reveal: Put the bottom card of your opponent's deck into your hand.",
+    "descriptionZh": "揭示：将对手卡组的底牌加入你的手牌。",
+    "nameZh": "电索",
+    "name": "Cable"
+  },
+  {
+    "cid": "35",
+    "description": "Ongoing: Your other cards at this location have +1 Power.",
+    "descriptionZh": "持续：你在此区域的其他卡牌+1战力。",
+    "nameZh": "美国队长",
+    "name": "Captain America"
+  },
+  {
+    "cid": "36",
+    "description": "At the end of the game, move to a location that wins you the game. (If possible)",
+    "descriptionZh": "此牌会在最终回合结束时移动到能为你赢下对战的区域（若能赢的话）。",
+    "nameZh": "惊奇队长",
+    "name": "Captain Marvel"
+  },
+  {
+    "cid": "37",
+    "description": "On Reveal: Destroy your other cards here. +2 Power for each destroyed.",
+    "descriptionZh": "揭示：摧毁你在此区域的其他卡牌，每摧毁1张就+2战力。",
+    "nameZh": "卡耐基",
+    "name": "Carnage"
+  },
+  {
+    "cid": "39",
+    "description": "Ongoing: Your highest Power cards get +2 Power.",
+    "descriptionZh": "持续：你战力最高的卡牌+2战力。",
+    "nameZh": "脑波强化机",
+    "name": "Cerebro"
+  },
+  {
+    "cid": "40",
+    "description": "On Reveal: Next turn, both players can move cards to this location.",
+    "descriptionZh": "揭示：下回合，双方均可将卡牌移动至此区域。",
+    "nameZh": "斗篷",
+    "name": "Cloak"
+  },
+  {
+    "cid": "42",
+    "description": "On Reveal: Discard the lowest-cost card from your hand.",
+    "descriptionZh": "揭示：丢弃你手牌中能量消耗最低的卡牌。",
+    "nameZh": "科琳·温",
+    "name": "Colleen Wing"
+  },
+  {
+    "cid": "43",
+    "description": "Ongoing: Can't be destroyed, moved, or have its Power reduced.",
+    "descriptionZh": "持续：不会被摧毁、移动，战力也不会减少。",
+    "nameZh": "钢力士",
+    "name": "Colossus"
+  },
+  {
+    "cid": "44",
+    "description": "Ongoing: On Reveal abilities won't happen at this location.",
+    "descriptionZh": "持续：此区域揭示效果不触发。",
+    "nameZh": "科斯莫",
+    "name": "Cosmo"
+  },
+  {
+    "cid": "46",
+    "description": "You can only play this at locations where you are winning.",
+    "descriptionZh": "仅可在领先区域放置此卡牌。",
+    "nameZh": "交叉骨",
+    "name": "Crossbones"
+  },
+  {
+    "cid": "47",
+    "description": "On Reveal: Each player draws a card.",
+    "descriptionZh": "揭示：双方各抽1张牌。",
+    "nameZh": "水晶",
+    "name": "Crystal"
+  },
+  {
+    "cid": "48",
+    "description": "\"Let's move, X-Men.\"",
+    "descriptionZh": "“X战警，出发。”",
+    "nameZh": "镭射眼",
+    "name": "Cyclops"
+  },
+  {
+    "cid": "49",
+    "description": "When this moves to a location, +2 Power for each card your opponent has there.",
+    "descriptionZh": "当此卡牌移动至一个区域时，对手在那个区域每有1张卡牌，此卡牌+2战力。",
+    "nameZh": "匕首",
+    "name": "Dagger"
+  },
+  {
+    "cid": "52",
+    "description": "On turn 5, you get to see your opponent's plays before you make your own.",
+    "descriptionZh": "在第5回合，你在进行操作前可以先观看对手的操作。",
+    "nameZh": "夜魔侠",
+    "name": "Daredevil"
+  },
+  {
+    "cid": "54",
+    "description": "Ongoing: +2 Power for each card in your opponent's deck.",
+    "descriptionZh": "持续：对手卡组中每有1张卡牌，+2战力。",
+    "nameZh": "黑鹰",
+    "name": "Darkhawk"
+  },
+  {
+    "cid": "55",
+    "description": "Ongoing: If you have 4 cards at each location, +6 Power.",
+    "descriptionZh": "持续：若你在每个区域都有4张卡牌，+6战力。",
+    "nameZh": "炫音",
+    "name": "Dazzler"
+  },
+  {
+    "cid": "56",
+    "description": "When this is destroyed, return it to your hand with double the Power.",
+    "descriptionZh": "此牌被摧毁时战力翻倍，并会退回到你的手牌中。",
+    "nameZh": "死侍",
+    "name": "Deadpool"
+  },
+  {
+    "cid": "57",
+    "description": "Costs 1 less for each card destroyed this game.",
+    "descriptionZh": "本局对战中每有1张卡牌被摧毁，能量消耗-1。",
+    "nameZh": "死亡女神",
+    "name": "Death"
+  },
+  {
+    "cid": "58",
+    "description": "On Reveal: Destroy your other cards at this location.",
+    "descriptionZh": "揭示：摧毁此区域中你的其他牌。",
+    "nameZh": "死灵锁",
+    "name": "Deathlok"
+  },
+  {
+    "cid": "59",
+    "description": "On Reveal: Add a Rock to each other location, for both players.",
+    "descriptionZh": "揭示：为双方在其他区域中各添加1张石块。",
+    "nameZh": "黛波丽",
+    "name": "Debrii"
+  },
+  {
+    "cid": "61",
+    "description": "On Reveal: Destroy your other cards.",
+    "descriptionZh": "揭示：摧毁你的其他卡牌。",
+    "nameZh": "毁灭者",
+    "name": "Destroyer"
+  },
+  {
+    "cid": "62",
+    "description": "Ongoing: +2 Power for each card in your hand.",
+    "descriptionZh": "持续：你每有1张手牌，+2战力。",
+    "nameZh": "恶魔恐龙",
+    "name": "Devil Dinosaur"
+  },
+  {
+    "cid": "64",
+    "description": "On Reveal: Add a 5-Power DoomBot to each other location.",
+    "descriptionZh": "揭示：在其他区域中各添加1张5战力的末日机器人。",
+    "nameZh": "毁灭博士",
+    "name": "Doctor Doom"
+  },
+  {
+    "cid": "65",
+    "description": "On Reveal: Pull 4 random cards from your opponent's hand to their side of this location.",
+    "descriptionZh": "揭示：随机将对手手牌中的4张牌放置于此敌方区域。",
+    "nameZh": "章鱼博士",
+    "name": "Doctor Octopus"
+  },
+  {
+    "cid": "66",
+    "description": "On Reveal: Move your highest Power cards to this location.",
+    "descriptionZh": "揭示：将你战力最高的牌移动至此区域。",
+    "nameZh": "奇异博士",
+    "name": "Doctor Strange"
+  },
+  {
+    "cid": "67",
+    "description": "You always draw this card on turn 2, and not before.",
+    "descriptionZh": "你只能在第2回合抽到此牌。",
+    "nameZh": "多米诺",
+    "name": "Domino"
+  },
+  {
+    "cid": "69",
+    "description": "At the end of the game, discard a card from your hand. This has its Power.",
+    "descriptionZh": "最终回合结束时丢弃一张手牌，此牌获得其战力。",
+    "nameZh": "德古拉",
+    "name": "Dracula"
+  },
+  {
+    "cid": "70",
+    "description": "On Reveal: If your opponent played a card here this turn, +2 Power.",
+    "descriptionZh": "揭示：若对手此回合在此区域放置了卡牌，+2战力。",
+    "nameZh": "德拉克斯",
+    "name": "Drax"
+  },
+  {
+    "cid": "73",
+    "description": "You can't play this after turn 3. Ongoing: You can't play cards here.",
+    "descriptionZh": "第3回合后不可放置此卡牌。持续：你不可在此区域放置卡牌。",
+    "nameZh": "黑舌谋士",
+    "name": "Ebony Maw"
+  },
+  {
+    "cid": "455",
+    "description": "After your opponent plays an Ongoing card here, remove its abilities.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Echo"
+  },
+  {
+    "cid": "75",
+    "description": "On Reveal: +1 Max Energy. Ongoing: You can only play 1 card a turn.",
+    "descriptionZh": "揭示：+1最大能量。持续：你每回合只能放置1张卡牌。",
+    "nameZh": "电王",
+    "name": "Electro"
+  },
+  {
+    "cid": "76",
+    "description": "On Reveal: Destroy a random enemy 1-Cost card at this location.",
+    "descriptionZh": "揭示：随机摧毁对手此区域中1张初始能量消耗为1的卡牌。",
+    "nameZh": "艾丽卡",
+    "name": "Elektra"
+  },
+  {
+    "cid": "77",
+    "description": "At the end of each turn, if you are winning this location, +1 Power.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Elsa Bloodstone"
+  },
+  {
+    "cid": "79",
+    "description": "On Reveal: Remove the abilities from all Ongoing cards at this location.",
+    "descriptionZh": "揭示：移除此区域内所有持续卡牌的特殊效果。",
+    "nameZh": "女巫师",
+    "name": "Enchantress"
+  },
+  {
+    "cid": "80",
+    "description": "On Reveal: Return your 1-Cost cards to your hand.",
+    "descriptionZh": "揭示：将你的初始能量消耗为1的卡牌退回手牌中。",
+    "nameZh": "猎鹰",
+    "name": "Falcon"
+  },
+  {
+    "cid": "381",
+    "description": "Ongoing: Adjacent locations have +1 Power.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Flatman"
+  },
+  {
+    "cid": "81",
+    "description": "On Reveal: Give the next card you play +2 Power.",
+    "descriptionZh": "揭示：你放置的下一张卡牌+2战力。",
+    "nameZh": "锻造者",
+    "name": "Forge"
+  },
+  {
+    "cid": "82",
+    "description": "On Reveal: If this is your only card here, destroy all other locations.",
+    "descriptionZh": "揭示：若你在此区域仅有此牌，摧毁其他区域。",
+    "nameZh": "吞星",
+    "name": "Galactus"
+  },
+  {
+    "cid": "83",
+    "description": "On Reveal: Discard a card from your hand. Destroy a random enemy card.",
+    "descriptionZh": "揭示：丢弃一张手牌，随机摧毁一张敌方卡牌。",
+    "nameZh": "牌皇",
+    "name": "Gambit"
+  },
+  {
+    "cid": "84",
+    "description": "On Reveal: If your opponent played a card here this turn, +5 Power.",
+    "descriptionZh": "揭示：若对手此回合在此区域放置了卡牌，+5战力。",
+    "nameZh": "卡魔拉",
+    "name": "Gamora"
+  },
+  {
+    "cid": "422",
+    "description": "Ongoing: Your cards are always revealed last. (Their On Reveal abilities happen last.)",
+    "descriptionZh": "持续：你的卡牌始终会后揭示。（卡牌的揭示效果会后触发。）",
+    "nameZh": "幽灵",
+    "name": "Ghost"
+  },
+  {
+    "cid": "85",
+    "description": "On Reveal: Bring back one of your discarded cards to this location.",
+    "descriptionZh": "揭示：将你丢弃的一张牌放回此区域。",
+    "nameZh": "恶灵骑士",
+    "name": "Ghost Rider"
+  },
+  {
+    "cid": "86",
+    "description": "On Reveal: The last card you played moves here.",
+    "descriptionZh": "揭示：将你放置的上一张卡牌移动至此区域。",
+    "nameZh": "幽灵蜘蛛",
+    "name": "Ghost-Spider"
+  },
+  {
+    "cid": "87",
+    "description": "You can only play this at the left location.",
+    "descriptionZh": "你只能将此卡牌放置在左侧区域。",
+    "nameZh": "巨鲸兽",
+    "name": "Giganto"
+  },
+  {
+    "cid": "456",
+    "description": "",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Gladiator"
+  },
+  {
+    "cid": "382",
+    "description": "On Reveal: Other cards can't be revealed this turn.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Goblin Queen"
+  },
+  {
+    "cid": "88",
+    "description": "Ongoing: Nobody can play cards that cost 4, 5, or 6 at this location.",
+    "descriptionZh": "持续：双方不可在此区域放置能量消耗为4、5或6的卡牌。",
+    "nameZh": "咕咕",
+    "name": "Goose"
+  },
+  {
+    "cid": "447",
+    "description": "",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Gorr"
+  },
+  {
+    "cid": "90",
+    "description": "On Reveal: Your opponent gains control of this.",
+    "descriptionZh": "揭示：将此牌移交给对手。",
+    "nameZh": "绿魔",
+    "name": "Green Goblin"
+  },
+  {
+    "cid": "91",
+    "description": "On Reveal: If your opponent played a card here this turn, +2 Power.",
+    "descriptionZh": "揭示：若对手此回合在此区域放置了卡牌，+2战力。",
+    "nameZh": "格鲁特",
+    "name": "Groot"
+  },
+  {
+    "cid": "383",
+    "description": "On Reveal: Double this card's Power.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Gwenpool"
+  },
+  {
+    "cid": "93",
+    "description": "On Reveal: If you play a card here next turn, +2 Power.",
+    "descriptionZh": "揭示：若你下回合在此区域放置了卡牌，+2战力。",
+    "nameZh": "鹰眼",
+    "name": "Hawkeye"
+  },
+  {
+    "cid": "94",
+    "description": "On Reveal: Afflict all other cards with -1 Power.",
+    "descriptionZh": "揭示：所有其他卡牌-1战力。",
+    "nameZh": "生化女",
+    "name": "Hazmat"
+  },
+  {
+    "cid": "95",
+    "description": "On Reveal: Move your other cards one location to the left.",
+    "descriptionZh": "揭示：将你的其他牌向左移动一个区域。",
+    "nameZh": "海姆达尔",
+    "name": "Heimdall"
+  },
+  {
+    "cid": "96",
+    "description": "On Reveal: Resurrect all cards you discarded from your hand to random locations.",
+    "descriptionZh": "揭示：将所有从你手牌中丢弃的卡牌复活至随机区域。",
+    "nameZh": "海拉",
+    "name": "Hela"
+  },
+  {
+    "cid": "384",
+    "description": "When you discard this from your hand, add 3 random cards to your hand.",
+    "descriptionZh": "当你从手牌中丢弃此卡牌时，将3张随机卡牌添加到你的手牌。",
+    "nameZh": "天空母舰",
+    "name": "Helicarrier"
+  },
+  {
+    "cid": "97",
+    "description": "On Reveal: Discard 2 cards from your hand.",
+    "descriptionZh": "揭示：你将丢弃2张手牌。",
+    "nameZh": "吸血鬼牛",
+    "name": "Hellcow"
+  },
+  {
+    "cid": "443",
+    "description": "At the start of the game, unlock the potential of your cards with no abilities.",
+    "descriptionZh": "对战开始时，解锁你无特殊效果的卡牌的隐藏效果。",
+    "nameZh": "至高进化",
+    "name": "High Evolutionary"
+  },
+  {
+    "cid": "99",
+    "description": "On Reveal: Gain +2 Power for each other card you played this turn.",
+    "descriptionZh": "揭示：此回合你每放置1张卡牌，+2战力。",
+    "nameZh": "杀手猴",
+    "name": "Hit Monkey"
+  },
+  {
+    "cid": "100",
+    "description": "On Reveal: Your opponent gains control of this.",
+    "descriptionZh": "揭示：将此牌移交给对手。",
+    "nameZh": "恶鬼",
+    "name": "Hobgoblin"
+  },
+  {
+    "cid": "444",
+    "description": "Ongoing: Tap this to see the top card of your deck.",
+    "descriptionZh": "持续：点击此卡来查看你卡组中最上面的卡牌。",
+    "nameZh": "霍华德鸭",
+    "name": "Howard the Duck"
+  },
+  {
+    "cid": "101",
+    "description": "\"HULK SMASH!\"",
+    "descriptionZh": "“浩克猛砸！”",
+    "nameZh": "浩克",
+    "name": "Hulk"
+  },
+  {
+    "cid": "102",
+    "description": "On Reveal: Merge this card with a random friendly card at this location.",
+    "descriptionZh": "揭示：将此牌与此区域中的一张随机友方牌合并。",
+    "nameZh": "反浩克装甲",
+    "name": "Hulkbuster"
+  },
+  {
+    "cid": "103",
+    "description": "When this moves, double its Power.",
+    "descriptionZh": "此牌移动时，战力翻倍。",
+    "nameZh": "霹雳火",
+    "name": "Human Torch"
+  },
+  {
+    "cid": "104",
+    "description": "On Reveal: Give a random card in your opponent's hand +1 Cost. (maximum 6)",
+    "descriptionZh": "揭示：对手的1张随机手牌+1能量消耗（最高为6）",
+    "nameZh": "冰人",
+    "name": "Iceman"
+  },
+  {
+    "cid": "105",
+    "description": "Ongoing: Cards you play here are not revealed until the game ends.",
+    "descriptionZh": "持续：你在此区域放置的卡牌在对战结束之前不会揭开。",
+    "nameZh": "隐形女",
+    "name": "Invisible Woman"
+  },
+  {
+    "cid": "106",
+    "description": "On Reveal: After you play your next card, move it one location to the left.",
+    "descriptionZh": "揭示：当你放置下一张牌后，其将向左移动一个区域。",
+    "nameZh": "铁拳",
+    "name": "Iron Fist"
+  },
+  {
+    "cid": "445",
+    "description": "On Reveal: Copy the text of your deck's top card.",
+    "descriptionZh": "",
+    "nameZh": "钢铁小子",
+    "name": "Iron Lad"
+  },
+  {
+    "cid": "107",
+    "description": "Ongoing: Your total Power is doubled at this location.",
+    "descriptionZh": "持续：你在此区域的总战力翻倍。",
+    "nameZh": "钢铁侠",
+    "name": "Iron Man"
+  },
+  {
+    "cid": "108",
+    "description": "On Reveal: Give 3 other friendly cards +2 Power.",
+    "descriptionZh": "揭示：使你的其他3张卡牌+2战力。",
+    "nameZh": "钢铁心",
+    "name": "Ironheart"
+  },
+  {
+    "cid": "440",
+    "description": "Ongoing: Your emotes are ruder.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "J. Jonah Jameson"
+  },
+  {
+    "cid": "408",
+    "description": "On Reveal: Draw all cards that Cost 0 from your deck.",
+    "descriptionZh": "揭示：从你的卡组中抽取所有能量消耗为0的卡牌。",
+    "nameZh": "简·福斯特：神威索尔",
+    "name": "Jane Foster Mighty Thor"
+  },
+  {
+    "cid": "110",
+    "description": "Ongoing: Players must play their first card here each turn. (if possible)",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Jean Grey"
+  },
+  {
+    "cid": "430",
+    "description": "You can move this once. Nothing can stop you from moving or playing this to any location.",
+    "descriptionZh": "你可以移动此卡牌一次。没什么能阻止你将此牌移动或放置到任意区域。",
+    "nameZh": "陆行鲨杰夫宝宝",
+    "name": "Jeff the Baby Land Shark"
+  },
+  {
+    "cid": "111",
+    "description": "On Reveal: If you don't play a card here next turn, +4 Power.",
+    "descriptionZh": "揭示：若你下回合未在此区域放置卡牌，+4战力。",
+    "nameZh": "杰西卡·琼斯",
+    "name": "Jessica Jones"
+  },
+  {
+    "cid": "112",
+    "description": "On Reveal: Add the top card of your deck to this location.",
+    "descriptionZh": "揭示：将你卡组中最上方的卡牌添加至此区域。",
+    "nameZh": "白光花火",
+    "name": "Jubilee"
+  },
+  {
+    "cid": "113",
+    "description": "On Reveal: If your opponent played cards here this turn, move them randomly.",
+    "descriptionZh": "揭示：若对手此回合在此区域放置了卡牌，则将它们移动到随机区域。",
+    "nameZh": "红坦克",
+    "name": "Juggernaut"
+  },
+  {
+    "cid": "117",
+    "description": "Ongoing: Your 1-Cost cards have +1 Power.",
+    "descriptionZh": "持续：你所有的初始能量消耗为1的卡牌+1战力。",
+    "nameZh": "卡扎尔",
+    "name": "Ka-Zar"
+  },
+  {
+    "cid": "116",
+    "description": "On Reveal: Look at what your opponent did, then restart the turn. (without Kang)",
+    "descriptionZh": "揭示：检视对手的操作，然后重新开始此回合（康会消失）。",
+    "nameZh": "康",
+    "name": "Kang"
+  },
+  {
+    "cid": "118",
+    "description": "On Reveal: Destroy ALL 1-Cost cards.",
+    "descriptionZh": "揭示：摧毁所有初始能量消耗为1的卡牌。",
+    "nameZh": "齐尔蒙格",
+    "name": "Killmonger"
+  },
+  {
+    "cid": "385",
+    "description": "On Reveal: Give the next card you play +4 Power.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "King Eitri"
+  },
+  {
+    "cid": "119",
+    "description": "When a card moves here on turn 6, destroy it.",
+    "descriptionZh": "当第6回合有牌移动至此区域，摧毁那张牌。",
+    "nameZh": "金并",
+    "name": "Kingpin"
+  },
+  {
+    "cid": "120",
+    "description": "When this returns to your hand, +2 Power. Returns at the start of each turn.",
+    "descriptionZh": "每回合开始时，此牌会退回到手牌，并+2战力。",
+    "nameZh": "凯蒂·普莱德",
+    "name": "Kitty Pryde"
+  },
+  {
+    "cid": "121",
+    "description": "Ongoing: The location to the right has +6 Power.",
+    "descriptionZh": "持续：所在区域的右侧区域+6战力。",
+    "nameZh": "克劳",
+    "name": "Klaw"
+  },
+  {
+    "cid": "409",
+    "description": "Ongoing: Has the combined Power of all cards destroyed this game.",
+    "descriptionZh": "持续：此牌战力为本局对战中所有被摧毁牌的战力之和。",
+    "nameZh": "纳尔",
+    "name": "Knull"
+  },
+  {
+    "cid": "124",
+    "description": "On Reveal: Shuffle a Rock into your opponent's deck.",
+    "descriptionZh": "揭示：将一张石块洗进对手卡组。",
+    "nameZh": "寇格",
+    "name": "Korg"
+  },
+  {
+    "cid": "125",
+    "description": "When a card moves here, this gets +2 Power.",
+    "descriptionZh": "当有卡牌移动至此区域时，此卡牌+2战力。",
+    "nameZh": "克莱文",
+    "name": "Kraven"
+  },
+  {
+    "cid": "127",
+    "description": "On Reveal: Destroy the enemy card with the highest Power at this location.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Lady Deathstrike"
+  },
+  {
+    "cid": "128",
+    "description": "On Reveal: Discard the highest-cost card from your hand.",
+    "descriptionZh": "揭示：丢弃你手牌中能量消耗最高的卡牌。",
+    "nameZh": "希芙女士",
+    "name": "Lady Sif"
+  },
+  {
+    "cid": "129",
+    "description": "On Reveal: Copy the enemy card(s) with the highest Power played this turn, but on your side.",
+    "descriptionZh": "复制对手在此回合放置的战力最高的牌，并添加至你对应的区域。",
+    "nameZh": "大头目",
+    "name": "Leader"
+  },
+  {
+    "cid": "131",
+    "description": "At the start of turn 6, remove all abilities from cards in your opponent's hand.",
+    "descriptionZh": "第六回合开始时，移除对手手牌的所有特殊效果。",
+    "nameZh": "水蛭",
+    "name": "Leech"
+  },
+  {
+    "cid": "132",
+    "description": "On Reveal: Replace each other location with this one.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Legion"
+  },
+  {
+    "cid": "134",
+    "description": "Ongoing: -4 Power if your opponent has 4 cards here.",
+    "descriptionZh": "持续：若对手在此区域有4张牌，-4战力。",
+    "nameZh": "蜥蜴",
+    "name": "Lizard"
+  },
+  {
+    "cid": "135",
+    "description": "After you play a card here, swap it with a card in your deck. (once per turn)",
+    "descriptionZh": "你在此区域放置一张卡牌后，会将其替换为你卡组中的一张卡牌。（每回合一次）",
+    "nameZh": "锁齿狗",
+    "name": "Lockjaw"
+  },
+  {
+    "cid": "446",
+    "description": "",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Loki"
+  },
+  {
+    "cid": "138",
+    "description": "Ongoing: Your cards can't have their Power reduced.",
+    "descriptionZh": "持续：你的牌无法被降低战力。",
+    "nameZh": "卢克·凯奇",
+    "name": "Luke Cage"
+  },
+  {
+    "cid": "139",
+    "description": "If this is in your deck at the end of the game, it jumps to a random location.",
+    "descriptionZh": "若此牌在最终回合结束时仍在卡组中，则将其随机放置到一个区域。",
+    "nameZh": "姆巴库",
+    "name": "M'Baku"
+  },
+  {
+    "cid": "140",
+    "description": "You can't play this on turn 6. On Reveal: Change this location to 'Limbo'.",
+    "descriptionZh": "第6回合不可放置此卡牌。揭示：将此区域改为“地狱边境”。",
+    "nameZh": "魔剑客",
+    "name": "Magik"
+  },
+  {
+    "cid": "141",
+    "description": "On Reveal: Move all opposing 3 and 4-Cost cards to this location.",
+    "descriptionZh": "揭示：将所有初始能量消耗为3和4的对手卡牌移动至此区域。",
+    "nameZh": "万磁王",
+    "name": "Magneto"
+  },
+  {
+    "cid": "142",
+    "description": "When you draw this, place it at a random location.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Makkari"
+  },
+  {
+    "cid": "143",
+    "description": "On Reveal: If your opponent played a card here this turn, draw a card from their deck.",
+    "descriptionZh": "揭示：若对手此回合在此区域放置了卡牌，则从其卡组中抽1张卡牌。",
+    "nameZh": "曼蒂斯",
+    "name": "Mantis"
+  },
+  {
+    "cid": "144",
+    "description": "On Reveal: Add a random 1-Cost card to your hand.",
+    "descriptionZh": "揭示：随机将一张初始能量消耗为1的卡牌添加到你的手牌中。",
+    "nameZh": "玛丽亚·希尔",
+    "name": "Maria Hill"
+  },
+  {
+    "cid": "314",
+    "description": "On Reveal: Add 2 Sentinel to your opponent's hand.",
+    "descriptionZh": "揭示：将2张哨兵机器人添加到对手手牌。",
+    "nameZh": "主体模组",
+    "name": "Master Mold"
+  },
+  {
+    "cid": "145",
+    "description": "On Reveal: Your opponent draws 2 cards.",
+    "descriptionZh": "揭示：你的对手抽2张牌。",
+    "nameZh": "麦西穆斯",
+    "name": "Maximus"
+  },
+  {
+    "cid": "146",
+    "description": "On Reveal: If this is at the middle location, +2 Power.",
+    "descriptionZh": "揭示：若此卡牌在中间区域，+2战力。",
+    "nameZh": "美杜莎",
+    "name": "Medusa"
+  },
+  {
+    "cid": "147",
+    "description": "If you win this game, double your winnings.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Mephisto"
+  },
+  {
+    "cid": "315",
+    "description": "If a card moved last turn, this costs 1.",
+    "descriptionZh": "若上个回合有卡牌移动过，则此卡牌的能量消耗为1。",
+    "nameZh": "迈尔斯·莫拉雷斯",
+    "name": "Miles Morales"
+  },
+  {
+    "cid": "151",
+    "description": "On Reveal: Copy the lowest-Cost card in your opponent's hand into your hand. Give it +2 Power.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Mirage"
+  },
+  {
+    "cid": "153",
+    "description": "Ongoing: Adjacent locations have +2 Power.",
+    "descriptionZh": "持续：相邻区域+2战力。",
+    "nameZh": "神奇先生",
+    "name": "Mister Fantastic"
+  },
+  {
+    "cid": "154",
+    "description": "On Reveal: Swap the Power and Cost of all cards in your deck.",
+    "descriptionZh": "揭示：将卡组中所有卡牌的能量消耗与战力互换。",
+    "nameZh": "负先生",
+    "name": "Mister Negative"
+  },
+  {
+    "cid": "155",
+    "description": "On Reveal: Add a Sinister Clone to this location with the same Power.",
+    "descriptionZh": "揭示：在此区域添加1张战力与之相同的惊恶克隆体。",
+    "nameZh": "惊恶先生",
+    "name": "Mister Sinister"
+  },
+  {
+    "cid": "156",
+    "description": "\"We've got to save this city.\"",
+    "descriptionZh": "“我们必须拯救这座城市。”",
+    "nameZh": "迷雾骑士",
+    "name": "Misty Knight"
+  },
+  {
+    "cid": "157",
+    "description": "On Reveal: Discard your hand.",
+    "descriptionZh": "揭示：丢弃你的手牌。",
+    "nameZh": "魔多客",
+    "name": "MODOK"
+  },
+  {
+    "cid": "158",
+    "description": "Ongoing: If both players have 4 cards at this location, +6 Power.",
+    "descriptionZh": "持续：若双方在此区域各有4张卡牌，+6战力。",
+    "nameZh": "莫卓",
+    "name": "Mojo"
+  },
+  {
+    "cid": "163",
+    "description": "On Reveal: Duplicate your hand.",
+    "descriptionZh": "揭示：复制你的手牌。",
+    "nameZh": "月亮女孩",
+    "name": "Moon Girl"
+  },
+  {
+    "cid": "164",
+    "description": "On Reveal: Discard a card from each player's hand.",
+    "descriptionZh": "揭示：双方均丢弃1张手牌。",
+    "nameZh": "月光骑士",
+    "name": "Moon Knight"
+  },
+  {
+    "cid": "165",
+    "description": "Ongoing: +2 Power for each time you discarded a card this game.",
+    "descriptionZh": "持续：本局对战中你每丢弃1张卡牌，+2战力。",
+    "nameZh": "莫比亚斯",
+    "name": "Morbius"
+  },
+  {
+    "cid": "166",
+    "description": "On Reveal: Become a copy of a random card in your opponent's hand.",
+    "descriptionZh": "揭示：变为对手手牌中随机一张牌的复制。",
+    "nameZh": "千面人",
+    "name": "Morph"
+  },
+  {
+    "cid": "316",
+    "description": "Ongoing: If this is your only card here, adjacent locations have +5 Power.",
+    "descriptionZh": "持续：若此卡牌是你在此区域中的唯一卡牌，相邻区域+5战力。",
+    "nameZh": "惊奇女士",
+    "name": "Ms. Marvel"
+  },
+  {
+    "cid": "169",
+    "description": "When this moves, add a copy to the old location.",
+    "descriptionZh": "此卡牌移动后，原区域添加1张它的复制。",
+    "nameZh": "分身人",
+    "name": "Multiple Man"
+  },
+  {
+    "cid": "171",
+    "description": "As you play this, play Illusions to other locations. Disguise this as an Illusion until the game ends.",
+    "descriptionZh": "当你放置此卡牌时，在其他区域中放置“幻觉”，并将此牌伪装成“幻觉”直至对战结束。",
+    "nameZh": "迷境魔",
+    "name": "Mysterio"
+  },
+  {
+    "cid": "173",
+    "description": "On Reveal: If the last card you played has an Ongoing, copy its text. (if it's in play)",
+    "descriptionZh": "揭示：若你放置的上张卡牌有持续效果且在场上，复制其卡面文字。",
+    "nameZh": "魔形女",
+    "name": "Mystique"
+  },
+  {
+    "cid": "174",
+    "description": "On Reveal: Give the 2 leftmost cards in your hand +2 Power.",
+    "descriptionZh": "揭示：使你手牌中左边的2张卡牌+2战力。",
+    "nameZh": "娜吉雅",
+    "name": "Nakia"
+  },
+  {
+    "cid": "175",
+    "description": "Ongoing: +5 Power if this is your only card here.",
+    "descriptionZh": "持续：若此卡牌是你在此区域中的唯一卡牌，+5战力。",
+    "nameZh": "纳摩",
+    "name": "Namor"
+  },
+  {
+    "cid": "176",
+    "description": "Each turn your opponent doesn't play a card here, +2 Power. (except the turn you play this)",
+    "descriptionZh": "每回合如果你的对手没有在此区域放置卡牌，+2战力（除你放置的那回合外）。",
+    "nameZh": "星云",
+    "name": "Nebula"
+  },
+  {
+    "cid": "177",
+    "description": "After ANY card is played here, destroy this card AND that card.",
+    "descriptionZh": "任意卡牌被放置到此区域后，会摧毁此卡牌与该卡牌。",
+    "nameZh": "青少女弹头",
+    "name": "Negasonic Teenage Warhead"
+  },
+  {
+    "cid": "180",
+    "description": "On Reveal: Add 3 random 6-Cost cards to your hand.",
+    "descriptionZh": "",
+    "nameZh": "尼克·弗瑞",
+    "name": "Nick Fury"
+  },
+  {
+    "cid": "388",
+    "description": "On Reveal: Add all cards you discarded or destroyed last turn to your hand.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Night Nurse"
+  },
+  {
+    "cid": "181",
+    "description": "You can move this once.",
+    "descriptionZh": "你可移动此牌一次。",
+    "nameZh": "夜行者",
+    "name": "Nightcrawler"
+  },
+  {
+    "cid": "429",
+    "description": "When this is destroyed, add a copy to each other location.",
+    "descriptionZh": "此卡牌被摧毁时，在其他区域中各添加一张此卡牌的复制。",
+    "nameZh": "宁录",
+    "name": "Nimrod"
+  },
+  {
+    "cid": "182",
+    "description": "When this is destroyed, give your cards +1 Power.",
+    "descriptionZh": "此卡牌被摧毁时，你的所有卡牌+1战力。",
+    "nameZh": "新星",
+    "name": "Nova"
+  },
+  {
+    "cid": "184",
+    "description": "On Reveal: Activate the On Reveal abilities of your other cards at this location.",
+    "descriptionZh": "揭示：触发此区域你其他牌的揭示效果。",
+    "nameZh": "奥丁",
+    "name": "Odin"
+  },
+  {
+    "cid": "185",
+    "description": "On Reveal: Give every card in your deck +1 Power.",
+    "descriptionZh": "揭示：使你卡组中所有卡牌+1战力。",
+    "nameZh": "奥克耶",
+    "name": "Okoye"
+  },
+  {
+    "cid": "187",
+    "description": "Ongoing: If you're ahead by 10 Power here, +4 Power to other locations.",
+    "descriptionZh": "持续：若你在此区域领先10点战力，则其他区域各+4战力。",
+    "nameZh": "红色欧米伽",
+    "name": "Omega Red"
+  },
+  {
+    "cid": "188",
+    "description": "Ongoing: Double your other Ongoing effects at this location.",
+    "descriptionZh": "持续：此区域中你的其他持续效果翻倍。",
+    "nameZh": "狂攻",
+    "name": "Onslaught"
+  },
+  {
+    "cid": "190",
+    "description": "Ongoing: +5 Power if this is your only card here.",
+    "descriptionZh": "持续：若此卡牌是你在此区域中的唯一卡牌，+5战力。",
+    "nameZh": "欧卡",
+    "name": "Orka"
+  },
+  {
+    "cid": "191",
+    "description": "Ongoing: Your cards with no abilities have +2 Power.",
+    "descriptionZh": "持续：你没有特殊效果的牌+2战力。",
+    "nameZh": "爱国者",
+    "name": "Patriot"
+  },
+  {
+    "cid": "193",
+    "description": "On Reveal: Move an opposing 1 or 2-Cost card to this location.",
+    "descriptionZh": "揭示：将1张初始能量消耗为1或2的对手卡牌移动至此区域。",
+    "nameZh": "北极星",
+    "name": "Polaris"
+  },
+  {
+    "cid": "195",
+    "description": "Ongoing: Lock down this location. (Cards can't be added, removed, etc.)",
+    "descriptionZh": "持续：锁定此区域。（不可在此区域添加、移除卡牌等。）",
+    "nameZh": "X教授",
+    "name": "Professor X"
+  },
+  {
+    "cid": "196",
+    "description": "On Reveal: Next turn, you get +1 Energy.",
+    "descriptionZh": "揭示：下回合+1能量。",
+    "nameZh": "灵蝶",
+    "name": "Psylocke"
+  },
+  {
+    "cid": "411",
+    "description": "Ongoing: +1 Power for each opposing card at this location.",
+    "descriptionZh": "持续：对手在此区域每有1张卡牌，+1战力。",
+    "nameZh": "惩罚者",
+    "name": "Punisher"
+  },
+  {
+    "cid": "197",
+    "description": "On Reveal: If this is at the middle location, swap the positions of each location.",
+    "descriptionZh": "揭示：若此牌在中间区域，则调换所有区域的位置。",
+    "nameZh": "震荡",
+    "name": "Quake"
+  },
+  {
+    "cid": "198",
+    "description": "Starts in your opening hand.",
+    "descriptionZh": "必定出现于起始手牌中。",
+    "nameZh": "快银",
+    "name": "Quicksilver"
+  },
+  {
+    "cid": "199",
+    "description": "Ongoing: Cards that didn't start in your deck cost 1 less. (minimum 1)",
+    "descriptionZh": "持续：对战开始时不在你卡组中的卡牌-1能量消耗。（最低为1）",
+    "nameZh": "昆式战斗机",
+    "name": "Quinjet"
+  },
+  {
+    "cid": "389",
+    "description": "On Reveal: Set this card's Power equal to the Power of a random card in your deck.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Random"
+  },
+  {
+    "cid": "202",
+    "description": "On Reveal: You must play a card here next turn.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Red Guardian"
+  },
+  {
+    "cid": "203",
+    "description": "Ongoing: Enemy cards at this location have +1 Power.",
+    "descriptionZh": "持续：此区域的对手卡牌+1战力。",
+    "nameZh": "红骷髅",
+    "name": "Red Skull"
+  },
+  {
+    "cid": "204",
+    "description": "On Reveal: If you play a card here next turn, +5 Power.",
+    "descriptionZh": "揭示：若你下回合在此区域放置了卡牌，+5战力。",
+    "nameZh": "救援",
+    "name": "Rescue"
+  },
+  {
+    "cid": "205",
+    "description": "On Reveal: Ruin this location. (remove its ability)",
+    "descriptionZh": "揭示：毁掉此区域（移除区域特殊效果）。",
+    "nameZh": "犀牛人",
+    "name": "Rhino"
+  },
+  {
+    "cid": "207",
+    "description": "On Reveal: If your opponent played a card here this turn, +2 Power.",
+    "descriptionZh": "揭示：若对手此回合在此区域放置了卡牌，+2战力。",
+    "nameZh": "火箭浣熊",
+    "name": "Rocket Raccoon"
+  },
+  {
+    "cid": "208",
+    "description": "On Reveal: Shuffle 2 Rocks into your opponent's deck.",
+    "descriptionZh": "揭示：将2张石块洗入对手卡组。",
+    "nameZh": "岩崩",
+    "name": "Rockslide"
+  },
+  {
+    "cid": "209",
+    "description": "On Reveal: Steal an Ongoing ability from a random enemy card at this location.",
+    "descriptionZh": "揭示：从此区域的敌方卡牌中随机偷取一个持续效果。",
+    "nameZh": "小淘气",
+    "name": "Rogue"
+  },
+  {
+    "cid": "210",
+    "description": "Ongoing: +2 Power for each card in your opponent's hand.",
+    "descriptionZh": "持续：对手每有1张手牌，+2战力。",
+    "nameZh": "指控者·罗南",
+    "name": "Ronan the Accuser"
+  },
+  {
+    "cid": "212",
+    "description": "When this is destroyed, return it to your hand. It costs 0.",
+    "descriptionZh": "当此卡牌被摧毁时，会退回到你的手牌中。能量消耗为0。",
+    "nameZh": "剑齿虎",
+    "name": "Sabretooth"
+  },
+  {
+    "cid": "215",
+    "description": "Ongoing: Players can only play 1 card a turn.",
+    "descriptionZh": "持续：双方每回合只可放置1张卡牌。",
+    "nameZh": "沙人",
+    "name": "Sandman"
+  },
+  {
+    "cid": "390",
+    "description": "On Reveal: Remove the abilities from all Ongoing cards in your hand and deck.",
+    "descriptionZh": "揭示：移除你手牌和卡组中所有持续卡牌的特殊效果。",
+    "nameZh": "翼龙人",
+    "name": "Sauron"
+  },
+  {
+    "cid": "217",
+    "description": "On Reveal: Replace this location with a random new one.",
+    "descriptionZh": "揭示：将此区域随机替换为新区域。",
+    "nameZh": "猩红女巫",
+    "name": "Scarlet Witch"
+  },
+  {
+    "cid": "218",
+    "description": "On Reveal: Afflict cards in your opponent's hand with -1 Power.",
+    "descriptionZh": "揭示：对手所有手牌-1战力。",
+    "nameZh": "银蝎",
+    "name": "Scorpion"
+  },
+  {
+    "cid": "219",
+    "description": "On Reveal: Add another Sentinel to your hand.",
+    "descriptionZh": "揭示：将另一张哨兵机器人添加到你的手牌。",
+    "nameZh": "哨兵机器人",
+    "name": "Sentinel"
+  },
+  {
+    "cid": "220",
+    "description": "You can't play this at the right location. On Reveal: Add a -10 Power Void to the right location.",
+    "descriptionZh": "此卡牌无法放置在右侧区域。\n揭示：向右侧区域添加1张-10战力的虚无。",
+    "nameZh": "哨兵",
+    "name": "Sentry"
+  },
+  {
+    "cid": "221",
+    "description": "Ongoing: Cards in your hand cost 1 less. (minimum 1)",
+    "descriptionZh": "持续：你所有的手牌-1能量消耗。（最低为1）",
+    "nameZh": "塞拉",
+    "name": "Sera"
+  },
+  {
+    "cid": "222",
+    "description": "On Reveal: Set all cards here to their original base Power.",
+    "descriptionZh": "揭示：使此区域所有卡牌的战力变为各自的初始基础值。",
+    "nameZh": "影王",
+    "name": "Shadow King"
+  },
+  {
+    "cid": "224",
+    "description": "On Reveal: Destroy all enemy cards at this location that have 9 or more Power.",
+    "descriptionZh": "揭示：摧毁对手在此区域中所有战力大于或等于9的卡牌。",
+    "nameZh": "尚气",
+    "name": "Shang-Chi"
+  },
+  {
+    "cid": "317",
+    "description": "On Reveal: Add a random 1-Cost card to each location.",
+    "descriptionZh": "揭示：随机将1张初始能量消耗为1的卡牌添加到每个区域。",
+    "nameZh": "山娜",
+    "name": "Shanna"
+  },
+  {
+    "cid": "226",
+    "description": "Costs 1 less for each unspent Energy last turn.",
+    "descriptionZh": "每有一点上回合未消耗的能量，能量消耗-1。",
+    "nameZh": "女浩克",
+    "name": "She-Hulk"
+  },
+  {
+    "cid": "227",
+    "description": "\"I'm gonna blast you!\"",
+    "descriptionZh": "“我要震爆你们！”",
+    "nameZh": "震撼者",
+    "name": "Shocker"
+  },
+  {
+    "cid": "228",
+    "description": "On Reveal: If you play your next card here, double its Power.",
+    "descriptionZh": "揭示：若你在此区域放置下一张卡牌，其战力翻倍。",
+    "nameZh": "苏睿",
+    "name": "Shuri"
+  },
+  {
+    "cid": "229",
+    "description": "After ANY card is played here, this moves to another location.",
+    "descriptionZh": "任意卡牌被放置到此区域后，此卡牌会移动到另一区域。",
+    "nameZh": "蛛丝",
+    "name": "Silk"
+  },
+  {
+    "cid": "230",
+    "description": "You can only play this at a location where you have 6+ total Power.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Silver Sable"
+  },
+  {
+    "cid": "231",
+    "description": "When this is discarded from your hand, draw a card.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Silver Samurai"
+  },
+  {
+    "cid": "232",
+    "description": "On Reveal: Give your other 3-Cost cards +2 Power.",
+    "descriptionZh": "揭示：你其他的初始能量消耗为3的卡牌+2战力。",
+    "nameZh": "银河冲浪手",
+    "name": "Silver Surfer"
+  },
+  {
+    "cid": "235",
+    "description": "While in your hand, this transforms each turn into a Hawk or a Bear.",
+    "descriptionZh": "此卡牌在你手牌中时，每一回合都会变为鹰或熊。",
+    "nameZh": "雪守卫",
+    "name": "Snowguard"
+  },
+  {
+    "cid": "239",
+    "description": "On Reveal: Give your Ongoing cards +2 Power.",
+    "descriptionZh": "揭示：你所有的持续卡牌+2战力。",
+    "nameZh": "光谱",
+    "name": "Spectrum"
+  },
+  {
+    "cid": "453",
+    "description": "On Reveal: Transform the highest-cost card in your opponent's hand into a Pig, keeping its Power and Cost.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Spider-Ham"
+  },
+  {
+    "cid": "240",
+    "description": "On Reveal: Your opponent can't play cards at this location next turn.",
+    "descriptionZh": "揭示：对手下回合无法在此区域放置卡牌。",
+    "nameZh": "蜘蛛侠",
+    "name": "Spider-Man"
+  },
+  {
+    "cid": "454",
+    "description": "The first time this moves to a location, destroy an enemy card there.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Spider-Man 2099"
+  },
+  {
+    "cid": "242",
+    "description": "On Reveal: Afflict all enemy cards here with -1 Power.",
+    "descriptionZh": "揭示：此区域所有敌方卡牌-1战力。",
+    "nameZh": "蜘蛛女",
+    "name": "Spider-Woman"
+  },
+  {
+    "cid": "244",
+    "description": "On Reveal: Add a 1-Power Squirrel to each other location.",
+    "descriptionZh": "揭示：在其他区域中各添加1张1战力的松鼠。",
+    "nameZh": "松鼠女孩",
+    "name": "Squirrel Girl"
+  },
+  {
+    "cid": "245",
+    "description": "On Reveal: If your opponent played a card here this turn, +3 Power.",
+    "descriptionZh": "揭示：若对手此回合在此区域放置了卡牌，+3战力。",
+    "nameZh": "星爵",
+    "name": "Star-Lord"
+  },
+  {
+    "cid": "423",
+    "description": "Costs 1 if your opponent discarded a card from their hand this game.",
+    "descriptionZh": "如果对手在本局对战中丢弃了1张卡牌，则此卡牌的能量消耗为1。",
+    "nameZh": "易身女",
+    "name": "Stature"
+  },
+  {
+    "cid": "441",
+    "description": "On Reveal: Move an enemy card from here to another location.",
+    "descriptionZh": "揭示：将此区域中的一张敌方卡牌移至其他区域。",
+    "nameZh": "史泰贡",
+    "name": "Stegron"
+  },
+  {
+    "cid": "247",
+    "description": "On Reveal: Flood this location. Next turn is the last turn cards can be played here.",
+    "descriptionZh": "揭示：冲毁此区域。下回合过后，双方不可在此区域放置卡牌。",
+    "nameZh": "暴风女",
+    "name": "Storm"
+  },
+  {
+    "cid": "249",
+    "description": "Ongoing: If your hand is empty, +6 Power.",
+    "descriptionZh": "持续：若你没有手牌，+6战力。",
+    "nameZh": "壮汉",
+    "name": "Strong Guy"
+  },
+  {
+    "cid": "250",
+    "description": "If your opponent has 12+ Power here at the end of any turn, destroy this.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Stryfe"
+  },
+  {
+    "cid": "252",
+    "description": "At the end of each turn, gain +1 Power for each unspent Energy.",
+    "descriptionZh": "每回合结束时，每有一点未消耗的能量，+1战力。",
+    "nameZh": "太阳黑子",
+    "name": "Sunspot"
+  },
+  {
+    "cid": "253",
+    "description": "Ongoing: Has the Ongoing effects of all enemy cards.",
+    "descriptionZh": "持续：获得所有敌方卡牌的持续效果。",
+    "nameZh": "超级史克鲁尔人",
+    "name": "Super-Skrull"
+  },
+  {
+    "cid": "254",
+    "description": "If you move the Human Torch to this location, +10 Power.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Surtur"
+  },
+  {
+    "cid": "255",
+    "description": "When this is discarded from your hand, add two copies that Cost 0 to your hand.",
+    "descriptionZh": "此卡牌从你的手牌中丢弃时，将2张复制添加到你的手牌中，这2张复制的能量消耗为0。",
+    "nameZh": "蜂群",
+    "name": "Swarm"
+  },
+  {
+    "cid": "256",
+    "description": "On Reveal: Discard a card from your hand.",
+    "descriptionZh": "揭示：丢弃一张手牌。",
+    "nameZh": "剑仙",
+    "name": "Sword Master"
+  },
+  {
+    "cid": "257",
+    "description": "On Reveal: Set this card's Power equal to that of the last card you played. (if that card's in play)",
+    "descriptionZh": "揭示：若你放置的上张卡牌效果尚在场上，则将此牌的战力改为与其相同。",
+    "nameZh": "模仿大师",
+    "name": "Taskmaster"
+  },
+  {
+    "cid": "258",
+    "description": "At the start of the game, shuffle the six Infinity Stones into your deck.",
+    "descriptionZh": "对战开始时，将六张无限宝石洗进你的卡组。",
+    "nameZh": "灭霸",
+    "name": "Thanos"
+  },
+  {
+    "cid": "261",
+    "description": "When a card enters your hand from anywhere (except your deck), +1 Power.",
+    "descriptionZh": "每当有卡牌从任意位置（你的卡组除外）添加到你的手牌，此卡牌+1战力。",
+    "nameZh": "收藏家",
+    "name": "The Collector"
+  },
+  {
+    "cid": "262",
+    "description": "On Reveal: Add a Demon to your hand.",
+    "descriptionZh": "揭示：将1张恶魔添加到你的手牌。",
+    "nameZh": "红兜帽",
+    "name": "The Hood"
+  },
+  {
+    "cid": "264",
+    "description": "If you played a card last turn, you can't play this.",
+    "descriptionZh": "若你在上个回合中放置了卡牌，则无法放置此卡牌。",
+    "nameZh": "次元行者",
+    "name": "The Infinaut"
+  },
+  {
+    "cid": "265",
+    "description": "Ongoing: Split your total Power evenly among all locations.",
+    "descriptionZh": "持续：将你的战力平分至所有区域。",
+    "nameZh": "生命法庭",
+    "name": "The Living Tribunal"
+  },
+  {
+    "cid": "413",
+    "description": "On Reveal: Revive one of your destroyed cards and merge with it. That card can move each turn.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "The Phoenix Force"
+  },
+  {
+    "cid": "269",
+    "description": "\"It's clobberin' time!\"",
+    "descriptionZh": "“胖揍时间到！”",
+    "nameZh": "石头人",
+    "name": "The Thing"
+  },
+  {
+    "cid": "272",
+    "description": "On Reveal: Shuffle Mjolnir into your deck.",
+    "descriptionZh": "揭示：将雷神之锤洗进你的卡组。",
+    "nameZh": "索尔",
+    "name": "Thor"
+  },
+  {
+    "cid": "277",
+    "description": "After ANY card is played here, this card switches sides.",
+    "descriptionZh": "任意卡牌被放置到此区域后，此卡牌会换边。",
+    "nameZh": "泰坦妮亚",
+    "name": "Titania"
+  },
+  {
+    "cid": "392",
+    "description": "On Reveal: Move the last card you played to this location.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Toad"
+  },
+  {
+    "cid": "279",
+    "description": "Ongoing: Your other cards have -1 Power.",
+    "descriptionZh": "持续：你的其他牌-1战力。",
+    "nameZh": "伤寒玛丽",
+    "name": "Typhoid Mary"
+  },
+  {
+    "cid": "280",
+    "description": "Once this is in your hand, you can see the unrevealed locations.",
+    "descriptionZh": "此牌出现在你的手牌后，你可以看到未揭示的区域效果。",
+    "nameZh": "观察者乌阿图",
+    "name": "Uatu the Watcher"
+  },
+  {
+    "cid": "281",
+    "description": "On Reveal: Create four 1-Power Drones at each other location.",
+    "descriptionZh": "揭示：在其他区域中各放置四张1战力的无人机。",
+    "nameZh": "奥创",
+    "name": "Ultron"
+  },
+  {
+    "cid": "282",
+    "description": "When this card is destroyed, add Spider-Man to your hand.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Uncle Ben"
+  },
+  {
+    "cid": "283",
+    "description": "On Reveal: Set ALL cards at this location to 3 Power.",
+    "descriptionZh": "揭示：将此区域中的所有牌改为3战力。",
+    "nameZh": "瓦尔基里",
+    "name": "Valkyrie"
+  },
+  {
+    "cid": "284",
+    "description": "On Reveal: Destroy your other cards at this location. Add their Power to this card.",
+    "descriptionZh": "揭示：摧毁此区域中你的其他卡牌，将其战力加在此牌上。",
+    "nameZh": "毒液",
+    "name": "Venom"
+  },
+  {
+    "cid": "285",
+    "description": "On Reveal: Your opponent gains control of one of your other cards at this location.",
+    "descriptionZh": "揭示：将此区域你的另一张牌移交给对手。",
+    "nameZh": "蝰蛇",
+    "name": "Viper"
+  },
+  {
+    "cid": "286",
+    "description": "You can move this each turn.",
+    "descriptionZh": "你每个回合均可移动此牌。",
+    "nameZh": "幻视",
+    "name": "Vision"
+  },
+  {
+    "cid": "393",
+    "description": "When you move a card to a location, move this card there as well.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Viv Vision"
+  },
+  {
+    "cid": "287",
+    "description": "When this card moves, +5 Power.",
+    "descriptionZh": "当此卡牌移动时，+5战力。",
+    "nameZh": "秃鹫",
+    "name": "Vulture"
+  },
+  {
+    "cid": "290",
+    "description": "Ongoing: Your 1-Cost cards have +1 Power.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "War Machine"
+  },
+  {
+    "cid": "291",
+    "description": "Ongoing: If any of your locations are empty, +4 Power.",
+    "descriptionZh": "持续：若你有空置区域，+4战力。",
+    "nameZh": "战戟",
+    "name": "Warpath"
+  },
+  {
+    "cid": "293",
+    "description": "\"My secret power is that I get things done.\"",
+    "descriptionZh": "“我的超能力是解决问题。”",
+    "nameZh": "黄蜂女",
+    "name": "Wasp"
+  },
+  {
+    "cid": "294",
+    "description": "On Reveal: All cards cost 4 until the end of next turn.",
+    "descriptionZh": "揭示：在下一回合结束前，所有卡牌的能量消耗都为4。",
+    "nameZh": "浪",
+    "name": "Wave"
+  },
+  {
+    "cid": "297",
+    "description": "On Reveal: Copy the highest-Cost card in your opponent's hand into your hand.",
+    "descriptionZh": "揭示：复制对手手牌中能量消耗最高的卡牌到你的手牌。",
+    "nameZh": "白皇后",
+    "name": "White Queen"
+  },
+  {
+    "cid": "298",
+    "description": "On Reveal: Add a 7-Power Tiger to another location.",
+    "descriptionZh": "揭示：在另一区域中添加1张7战力的灵虎。",
+    "nameZh": "白虎",
+    "name": "White Tiger"
+  },
+  {
+    "cid": "394",
+    "description": "On Reveal: Your opponent draws a card, increase its cost by 1.",
+    "descriptionZh": "",
+    "nameZh": "",
+    "name": "Witchfire"
+  },
+  {
+    "cid": "301",
+    "description": "On Reveal: +2 Power for each other card you have here.",
+    "descriptionZh": "揭示：此区域你每有1张其他卡牌，+2战力。",
+    "nameZh": "狼毒",
+    "name": "Wolfsbane"
+  },
+  {
+    "cid": "302",
+    "description": "When this is discarded or destroyed, regenerate it at a random location with +2 Power.",
+    "descriptionZh": "此卡牌被丢弃或摧毁时，重新将其添加至一个随机区域并+2战力。",
+    "nameZh": "金刚狼",
+    "name": "Wolverine"
+  },
+  {
+    "cid": "303",
+    "description": "Ongoing: Your On Reveal abilities at this location happen twice.",
+    "descriptionZh": "持续：此区域中你的揭示效果触发两次。",
+    "nameZh": "王",
+    "name": "Wong"
+  },
+  {
+    "cid": "395",
+    "description": "When this is discarded from your hand, put it back. It costs 0.",
+    "descriptionZh": "",
+    "nameZh": "X-23",
+    "name": "X-23"
+  },
+  {
+    "cid": "307",
+    "description": "On Reveal: Afflict your other cards at this location with -1 Power.",
+    "descriptionZh": "揭示：此区域中你的其他牌-1战力。",
+    "nameZh": "黄蜂侠",
+    "name": "Yellowjacket"
+  },
+  {
+    "cid": "308",
+    "description": "When this card moves, move it back with +1 Power.",
+    "descriptionZh": "",
+    "nameZh": "悠悠球",
+    "name": "Yo-Yo"
+  },
+  {
+    "cid": "309",
+    "description": "On Reveal: Destroy the top card of your opponent's deck.",
+    "descriptionZh": "揭示：摧毁对手卡组中最上方的卡牌。",
+    "nameZh": "勇度",
+    "name": "Yondu"
+  },
+  {
+    "cid": "310",
+    "description": "Ongoing: Your 4-Cost cards cost 1 less. (minimum 1)",
+    "descriptionZh": "持续：你所有初始能量消耗为4的卡牌-1能量消耗。（最低为1）",
+    "nameZh": "扎布",
+    "name": "Zabu"
+  },
+  {
+    "cid": "311",
+    "description": "On Reveal: Remove the abilities on the next card you play.",
+    "descriptionZh": "揭示：移除你放置的下一张卡牌的特殊效果。",
+    "nameZh": "零号",
+    "name": "Zero"
+  }
+]

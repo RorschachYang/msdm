@@ -40,3 +40,21 @@ func GetAllCards() ([]Card, error) {
 	}
 	return cards, nil
 }
+
+func GetCardsByNames(names []string) ([]Card, error) {
+	cards := []Card{}
+	result := db.Where("name IN (?)", names).Find(&cards)
+	if result.Error != nil {
+		return nil, result.Error
+	}
+	return cards, nil
+}
+
+func GetCardsByDefids(defids []string) ([]Card, error) {
+	cards := []Card{}
+	result := db.Where("defid IN (?)", defids).Find(&cards)
+	if result.Error != nil {
+		return nil, result.Error
+	}
+	return cards, nil
+}

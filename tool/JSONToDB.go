@@ -14,6 +14,16 @@ import (
 	"gorm.io/gorm"
 )
 
+func JSONToDB() {
+	CardsDataToDB()
+	LocationsDataToDB()
+	TitlesDataToDB()
+	TranslateCardToDB() //先翻译卡牌，让变体可以获取到卡牌中文名
+	TranslateLocationToDB()
+	VariantsDataToDB()
+	TranslateTagToDB()
+}
+
 func CardsDataToDB() {
 	// 读取JSON文件数据
 	data, err := ioutil.ReadFile("./data/source/cardsdata.json")
@@ -244,6 +254,28 @@ func VariantsDataToDB() {
 			if tag != "" {
 				dao.UpsertTagAndLinkWithVariant(tag, uint(vid))
 			}
+		}
+	}
+}
+
+func TranslateTagToDB() {
+	content, err := ioutil.ReadFile("./data/translation/tags_zh.json")
+	if err != nil {
+		panic(err)
+	}
+
+	var tagTranslations []TagTranslation
+	if err := json.Unmarshal(content, &tagTranslations); err != nil {
+		panic(err)
+	}
+
+	for _, translation := range tagTranslations {
+		tag, _ := dao.GetTagByName(translation.Name)
+		if err == nil {
+			tag.NameZh = translation.NameZh
+			tag.Name = translation.Name
+
+			dao.UpdateTag(tag)
 		}
 	}
 }

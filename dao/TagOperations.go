@@ -44,3 +44,30 @@ func GetAllTags() ([]Tag, error) {
 	}
 	return tags, nil
 }
+
+func UpdateTag(tag *Tag) error {
+	var existingTag Tag
+	err := db.Where("name = ?", tag.Name).First(&existingTag).Error
+	if err != nil {
+		return err
+	}
+
+	existingTag.NameZh = tag.NameZh
+	existingTag.Name = tag.Name
+
+	err = db.Save(&existingTag).Error
+	if err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func GetTagByName(name string) (*Tag, error) {
+	var tag Tag
+	result := db.Where("name = ?", name).First(&tag)
+	if result.Error != nil {
+		return nil, result.Error
+	}
+	return &tag, nil
+}
