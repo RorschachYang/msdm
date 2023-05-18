@@ -24,7 +24,7 @@ func DeleteDeckByID(deckID uint) error {
 		return err
 	}
 
-	if err := db.Model(&Deck{ID: deckID}).Association("Users").Clear(); err != nil {
+	if err := db.Model(&Deck{ID: deckID}).Association("Author").Clear(); err != nil {
 		return err
 	}
 
